@@ -1,0 +1,115 @@
+
+ <!-- Page Header Start -->
+    <div class="page-header" style="background: url(assets/img/2.jpg);">
+      <div class="container">
+        <div class="row">         
+          <div class="col-md-12">
+            <div class="breadcrumb-wrapper">
+              <h2 class="page-title">{{headin}}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <!-- Page Header End -->
+
+
+	<div style="background:#E6E6FA">
+	   <div class="container">
+		   <div class = "row">
+			   <div class = "col-md-8 col-md-offset-2 col-sm-12 col-xm-12">
+			   <br>
+				<div class = "thumbnail" style = "margin:25px 0px 47px 0px;">
+				  <table class="table table-responsive product-dashboard-table table-hover" style= "background-color: white; margin-bottom:0px;">
+					   <thead style= "background-color:#44f134">
+								<tr>
+									<th class = "pull-left">Product</th>
+									<th>Product Info</th>
+									<th class = "edit pull-right">Edit Cart</th>
+									
+								</tr>
+							</thead>
+							<tbody>
+							{{# if products}}
+							{{#each products}}
+							<tr>
+								<td class="product-thumb" style = "vertical-align: middle;">
+									<a href="/product-d/{{this.item._id}}"><img width="80px" height="auto" src="{{this.item.imagePath}}" alt="Product image" class = "pull-left"></a>
+								</td>
+									<td>
+										<h5>{{this.item.title}}</h5>
+										<ul class="list-inline" >
+											<li><strong>Qty:</strong><span class = "badge">{{this.qty}}</span></li>
+											<li><strong>Price:<span class = "badge">SZL{{this.price}}</span></li>
+										</ul>
+									</td>
+									
+									<td class="action" data-title="Action" style = "vertical-align: middle;">
+									
+										<div class = "pull-right">
+											<ul class="list-inline">
+												<li class = "col-xm-12">
+													<a class = "label label-info" href = '/reduce/{{this.item._id}}' data-toggle = "tooltip" title = "Remove By 1" data-placement = "top">
+														<i class="lnr lnr-circle-minus"></i>
+													</a>		
+												</li>
+												<li>
+													<a class = "label label-danger" href = '/remove/{{this.item._id}}' data-toggle = "tooltip" title = "Remove All" data-placement = "top">
+														<i class="lnr lnr-trash"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								{{/each}}
+								
+								<tr class = "success">
+								<td class="product-thumb" style = "vertical-align: middle;">
+										<h3 class = "totalSize"><strong>Total:</strong></h3>
+										
+								</td>
+									<td style = "vertical-align: middle;">
+										<h3 class = "totalSize"><strong><span style = "color:green">SZL {{totalPrice}}</span></strong></h3>
+									</td>	
+									
+									<td class="action" data-title="Action" style = "vertical-align: middle;">
+									 <a class="btn btn-common-checkout center-block pull-right" href="/checkout">Checkout <i class = "lnr lnr-arrow-right"></i></a>
+									 </td>
+								<tr>
+								
+							{{else}}
+							</tr>
+							
+							<tr class = "success">
+							<td class="product-thumb" style = "vertical-align: middle;">
+										<h1 class = "text-align: left"><span style="color: #3498DB; font-weight: 550;">No Items In Cart</span></h1>
+										<br><br><br><br><br><br>
+										<a class="btn btn-common-checkout center-block pull-left" href="/listing"><i class = "lnr lnr-arrow-left"></i> Go Shopping</a>
+										
+							</td>
+									 <td style = "vertical-align: middle;">
+									 </td>
+									 <td class="action" data-title="Action" style = "vertical-align: bottom;">
+							         </td>
+							</tr>
+							
+							{{/if}}
+		
+						
+							</tbody>
+							
+						</table>
+							
+				  </div>
+			
+		
+		</div>
+	</div>
+	</div>	 
+	</div> 
+
+
+
+ 

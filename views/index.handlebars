@@ -1,0 +1,104 @@
+
+    <!-- Start intro section -->
+	
+    <section id="intro" class="section-intro">
+      <div class="overlay">
+        <div class="container">
+          <div class="main-text">
+            <h1 class="intro-title"><span style="color: #3498DB;"><span style = "color: #44f134;">ESWATINI'S HERBAL NUTRITION</span></span></h1>
+            <p class="sub-title">We sell African herbal medicine to treat all kinds sicknesses. You can now  <strong>order</strong> our products online. Then come later to pick up your order.<br>    
+		     Lets hold hands together and say No to <span class = "label label-success">COVID-19</span></p>
+			
+				    <a href = "/listing"><button class="btn btn-common btn-search pull-center"><strong><i class = "lnr lnr-cart"></i>Start Shopping Now</strong></button></a>
+			
+            <!-- End Search box -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end intro section -->
+	
+    <div id="categories-homepage featured-lis" style="background:#E6E6FA; margin-bottom:-24px;"> 
+        <div class="container">
+            <div class="row">
+		        <div class="col-md-12 wow fadeIn" data-wow-delay="0.5s" id= "slide">
+                    <h3 class="section-title" style = "color:grey">HERBAL TREATMENT'S TRENDING PRODUCTS</h3>
+                    <div id="new-products" >
+					{{#each products}}
+                        <div class="item">
+                            <div class="product-item">
+                                <div class="carousel-thumb">
+                                    <img src="{{this.imagePath}}" alt="Product Image">
+                                    <div class="overlay">
+                                         <a  href="/product-d/{{this.id}}"><i class="lnr lnr-link"></i></a>
+                                    </div> 
+                                </div>    
+                                 <a href="/product-d/{{this.id}}" class="btn btn-common btn-go-to-index center-block" href="/listing" style = "margin-top:10px;"><span class="lnr lnr-leaf"></span> {{this.title}}</a>
+                            </div>
+                        </div>
+					{{/each}}	
+						
+                    </div>
+                </div>
+            </div>
+		</div>
+    </div>
+<br>
+
+    {{#if accRemoval}}
+	<div class = "modal fade" id= "myModal" tabindex = "-1" role = "dialog" aria-labelledby= "myModalLabel" aria-hidden = "true">
+                    <div class= "modal-dialog">
+	                     <div class="modal-content">
+		                     <div class = "modal-header">
+			                     <button type= "button" class = "close" data-dismiss = "modal" aria-hidden = "true">X</button>
+				                 <h3 style = "color:#D3D3D3" id = "myModalLabel">Account DELETED successfuly.</h3>
+			                </div>
+			                <div class ="modal-body">
+
+				             <blockquote>
+				                 <p style = "color:#D3D3D3"> Thank you for working with us. We hope and believe that you join us gain in the near future.</i>
+								                              
+				                 <small>Store Manager<cite title="Source Title"> Marco De'Sousa</small></p>
+				             <blockquote>
+
+			            </div>
+		            </div>
+	            </div>
+      
+	{{/if}}
+	<div class="services">
+        <div class="container">
+		    <h3 class="section-title" style = "text-align:center;">ONLINE SHOPPING MADE EASY</h3>
+            <div class="row" style = "margin-bottom:60px;">
+                <div class="col-md-4">
+			        <div class="service-item first-service">
+					<div class="service-icon"></div>
+                        <h4>Select Product</h4>
+						<p>Click the blue " <strong> Add To Cart"</strong> button at the bottom of the product you are interested in. The product will then be automatically added in your shopping cart.</p>
+                        
+                    </div>
+                </div>
+				
+                <div class="col-md-4">
+                    <div class="service-item second-service">
+                       <div class="service-icon"></div>
+                        <h4>Make An Order 
+						</h4>
+                        <p>On the top-right side of the page, click the "<strong>Your Cart"</strong> icon and view all the products in your shopping cart. Then click the blue<strong> "Checkout"</strong> button at the bottom-right.</p>
+						
+                    </div>
+                </div>
+				
+                <div class="col-md-4">
+                    <div class="service-item third-service">
+                        <div class="service-icon"></div>
+                        <h4>Order Delivery</h4>
+                        <p>Enter your personal info in order to let us know where and how to contact you about your order. Make sure your then come in-store to pick your order within the next 48hrs.</p>
+						   
+						
+                    </div>
+                </div>
+			</div>
+            </div>
+        </div>
+    </div>
