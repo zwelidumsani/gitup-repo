@@ -24,7 +24,7 @@ var csrfProtection = csrf()
 
 var indexRouter = require('./routes/index');
 
-mongoClient.connect('mongodb://localhost/shopping',{  
+mongoClient.connect('mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority',{  
   useUnifiedTopology: true
 }).then(() =>{
 	     console.log("DB-Connection successfull!");
