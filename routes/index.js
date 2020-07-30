@@ -266,14 +266,14 @@ router.post('/email', function(req, res){
 		
 	 service: 'Gmail',
 	    auth: {
-		     user: 'fanadumsani376@gmail.com',
-		     pass: 'FANAdumsani@1989'
+		     user: 'eswatiniherbalnutrition@gmail.com',
+		     pass: 'FANAdumsani@1989367'
 		}
 	});
 	
     const mailOptions = {
          from: req.body.email, // sender address
-         to: 'zwelidumsani@gmail.com', // list of receivers
+         to: 'eswatiniherbalnutrition@gmail.com', // list of receivers
          subject: 'Client Mail', // Subject line
          html: '<p>'+req.body.message+'</p>'// plain text body
     };
