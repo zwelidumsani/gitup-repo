@@ -251,7 +251,7 @@
   }
   
    .section-intro .main-text .sub-title {
-    font-size: 12px;
+    font-size: 13px;
 	margin-top: -11px;
   }
 
@@ -423,14 +423,14 @@
 	padding:10px;
 }
 	.logowording{  
-		  font-size: 21px;
+		  font-size: 17px;
 		  font-weight: 550;
 		  margin:6px;
 		  margin-left:0px;
     }
 
 .section-intro .main-text .intro-title {
-  font-size: 17px; 
+  font-size: 20px; 
 }
 
   h3.block-title {
@@ -439,7 +439,7 @@
 }
 
 .page-header .page-title {
-  font-size: 19px;
+  font-size: 22px;
 }
 .product-thumb{
 	font-size:7px;
@@ -486,6 +486,11 @@
 	font-size:11px;
 }
 
+  .btn-search {
+ padding: 12px 16px;
+ font-size:  10px;
+}
+
 }
 @media (max-width: 320px) {
 	.btn-common-description {
@@ -498,7 +503,7 @@
 		display: block;
 	}
 	.logowording{  
-		  font-size: 18px;
+		  font-size: 16px;
 		  margin:6px;
 		  margin-left:0px;
 		}
@@ -516,7 +521,7 @@ h3.block-title {
   margin-top:10px;
 }
 .page-header .page-title {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .product-thumb{
@@ -562,12 +567,16 @@ h3.block-title {
 }
   
   #topic{
-	  font-size: 14px;
-  
+	  font-size: 14px; 
   }
    .section-intro .main-text .sub-title {
-    font-size: 11px;
+    font-size: 12px;
   }
+  
+  .btn-search {
+ padding: 10px 14px;
+ font-size:  8px;
+}
 }
 
 

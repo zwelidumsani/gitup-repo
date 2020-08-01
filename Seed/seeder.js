@@ -35,7 +35,7 @@ new Product({
 	imagePath:'assets/img/product/vukautimele.jpg',
 	title: 'Vuka Utimele',
 	globalName: 'Curing',
-	description: 'Excellent for idrop, Body sores, Piles, Prostrate cancer, Cleans blood, Numonia, Pain in the chest, Pimples, Iching on the skin, Thrush, and Increasing CD4 count,',
+	description: 'Excellent for drop, Body sores, Piles, Prostrate cancer, Cleans blood, Numonia, Pain in the chest, Pimples, Iching on the skin, Thrush, and Increasing CD4 count,',
 	price:100,
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.',
