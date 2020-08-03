@@ -16,7 +16,7 @@ const client = require('twilio')(accountSid, authToken);
 
 router.get('/', (req, res) => {
 	 const accRemoval = req.flash('acc-removal')[0]; 
-     Product.find(function(err, docs){	
+     Product.find({category: "healing"}, function(err, docs){	
 		 res.render('index', {products: docs, accRemoval: accRemoval});
 	});		
 })
@@ -219,14 +219,22 @@ router.get('/close-order/:id', isLoggedIn, function(req, res, next){
 	 });
 });
 
-
-
-
 router.get('/listing', function(req, res, next){
-	
-	 Product.find(function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "PRODUCT LISTING",products: docs});
-	 
+	 Product.find({category: "healing"}, function(err, docs){
+		 return res.render('listing', {title: 'Shopping Cart',headin: "HEALING AND CURE",products: docs});
+	 });
+});
+
+router.get('/affection', function(req, res, next){
+	 Product.find({category: "affection"}, function(err, docs){
+	 var affection;	 
+		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE AND AFFECTION",products: docs, affection:affection, affection:!affection});
+	 });
+});
+
+router.get('/wealth', function(req, res, next){
+	 Product.find({category: "wealth"}, function(err, docs){
+		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH AND SUCCESS",products: docs});
 	 });
 });
 
@@ -351,14 +359,14 @@ router.get('/shopping-cart', function(req, res, next){
 	var orderSuccess = req.flash('order_success')[0];
 	
 	    if(!req.session.cart){
-		return res.render('shopping-cart', {products: null, headin: 'You have No Items In Cart'});
+		return res.render('shopping-cart', {products: null, headin: 'No Items In Cart'});
 	}
 	
 		
 		var cart = new Cart(req.session.cart);
 		
 		return res.render('shopping-cart', {products: cart.generateArray(),
-	    totalPrice: cart.totalPrice, orderSuccess:!orderSuccess, orderSuccess:orderSuccess, headin: 'Your Shopping  Cart Items'});
+	    totalPrice: cart.totalPrice, orderSuccess:!orderSuccess, orderSuccess:orderSuccess, headin: 'Shopping  Cart Items'});
 	
 });
 
