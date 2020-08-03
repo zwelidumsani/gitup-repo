@@ -1221,22 +1221,7 @@ select > opation:focus {
   -o-transition: all .4s ease;
   transition: all .4s ease;
 }
-#new-products .product-item .carousel-thumb:hover img{
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -0-transform: scale(0.9);
-  transform: scale(0.9);
-}
 
-.carousel-thumb:hover img{
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -0-transform: scale(0.9);
-  transform: scale(0.9);
-  border-color: white;
-}
 .carousel-thumb:hover .overlay{
 	  opacity: 1;
   visibility: visible;
@@ -1244,7 +1229,7 @@ select > opation:focus {
 
 #new-products .product-item .carousel-thumb:hover{
      border-color: white;
-     border: 1px solid grey;
+     border: 1px solid green;
 }
 #new-products .product-item .carousel-thumb:hover .overlay{
   opacity: 1;
@@ -1665,7 +1650,7 @@ footer .menu li a:hover {
   transition: background 0.25s ease-in 0s;
 }
 .adds-wrapper .item-list:hover {
-  background: #FFC107;;
+  background: #FFC107;
 }
 .adds-wrapper .add-title {
   padding-bottom: 10px;

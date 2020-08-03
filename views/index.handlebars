@@ -22,18 +22,18 @@
         <div class="container">
             <div class="row">
 		        <div class="col-md-12 wow fadeIn" data-wow-delay="0.5s" id= "slide">
-                    <h3 class="section-title" style = "color:grey">HERBAL NUTRITION'S TRENDING PRODUCTS</h3>
+                    <h3 class="section-title" style = "color:grey">OUR TRENDING PRODUCTS</h3>
                     <div id="new-products" >
 					{{#each products}}
                         <div class="item">
                             <div class="product-item">
                                 <div class="carousel-thumb">
-                                    <img src="{{this.imagePath}}" alt="Product Image">
-                                    <div class="overlay">
-                                         <a  href="/product-d/{{this.id}}"><i class="lnr lnr-link"></i></a>
-                                    </div> 
+                                    <a  href="/product-d/{{this.id}}"><img src="{{this.imagePath}}" alt="Product Image">
+                                    
+									<strong style = "color:black" class = "text-right">CURES: {{this.summary}}</strong>
+									 <a href="/product-d/{{this.id}}" class="btn btn-common btn-go-to-index center-block" href="/listing" style = "margin-top:10px;"><span class="lnr lnr-leaf"></span> {{this.title}}</a>
                                 </div>    
-                                 <a href="/product-d/{{this.id}}" class="btn btn-common btn-go-to-index center-block" href="/listing" style = "margin-top:10px;"><span class="lnr lnr-leaf"></span> {{this.title}}</a>
+                                
                             </div>
                         </div>
 					{{/each}}	
