@@ -19,6 +19,7 @@ new Product({
 	description: 'Rapid bone repair, Gout, Piles, Immune booster,Post operations, Internal bleeding, Ulcers, Intestine disorders, Body cleaner, Boosts sexual performance,Bleeding gums, Body sores, Helps digestion process, and Cancer, ',
 	summary: 'Gout, Piles, Internal Bleeding, Disorders, Ulcers, Cancer etc.  ',
 	price:100,
+	volume:'1 Litre',
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
@@ -30,6 +31,7 @@ new Product({
     description: 'Keys to Immune System health, [Drink half a glass three times per day]',
 	summary: 'Immune System, Sexual Performance, Blood, Digestion, etc',
 	price:100,
+	volume:'1 Litre',
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
@@ -41,6 +43,7 @@ new Product({
 	description: 'Excellent for drop, Body sores, Piles, Prostrate cancer, Cleans blood, Numonia, Pain in the chest, Pimples, Iching on the skin, Thrush, and Increasing CD4 count,',
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count, etc',
 	price:100,
+	volume:'1 Litre',
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
@@ -52,6 +55,7 @@ new Product({
 	description: 'Lower back pain, Bladder, Kidney, increases man-power and performance',
 	summary: 'Lower Back Pain, Bladder, Kidneys Failure, Sexual Stamina etc',
 	price:100,
+	volume:'1 Litre',
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -65,6 +69,7 @@ new Product({
 	description: 'Stops painful feet, reduces oversweating, strengthens the kidneys, helps digestive process, treats symtoms of suger diabetes, Excelent for diet, Acts against fatigue, Controls your need for sleep,Treats systems for high blood pressure, Regulates the metabolism of carbohydrates.',
 	summary: 'Painful Feet, Sweating, Suger Diabetes, High Blood Pressure etc',
 	price:100,
+	volume:'1 Litre',
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
@@ -76,6 +81,7 @@ new Product({
 	description: 'TB, Body sores, Piles, Cancer, Drop, Ematfumba, Stomach pains, Cleans the blood, ',
 	summary: 'TB(Tubercolosis), Piles, Stomach Pains, Blisters,etc', 
 	price:100,
+	volume:'1 Litre',
 	instructions:'Instructions are still being prepared.',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -89,6 +95,7 @@ new Product({
 	description: 'A very delicate special mixture [Siwasho] of essential powers and herbs to be used for luck, business success, and successful gambling.',
 	summary: 'A mixture for luck, business success and successful gambling', 
 	price:30,
+	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -102,6 +109,7 @@ new Product({
 	description: 'A very special mixture of essential oils & herbs to be used for luck, business, attraction to money and gambling',
 	summary: 'A mixture for luck, business success and successful gambling', 
 	price:45,
+	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -115,6 +123,7 @@ new Product({
 	description: 'A special mixture to be used for luck, businesses, attraction of money,and successful gambling.',
 	summary: 'A mixture for luck, business success and successful gambling', 
 	price:45,
+	volume:'100g',
 	instructions:'Geza',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -128,6 +137,7 @@ new Product({
 	description: 'A special mixture of herbs [Siwasho], which can lead to successful churches, respect, peace, and love',
 	summary: 'A mixture for luck, successful churches, love and respect', 
 	price:45,
+	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Chela',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -141,6 +151,7 @@ new Product({
     description: 'A very special mixture of herbs [Siwasho], which can lead to marriage when used upstoppably',
 	summary: 'A mixture for marriage', 
 	price:45,
+	volume:'150g',
 	instructions:'Futsa',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -154,6 +165,7 @@ new Product({
 	description: 'A very delicate and special mixture of herbs & mineral saults to be used for luck, love, and gambling.',
 	summary: 'A mixture for luck, love and gambling', 
 	price : 45,
+	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
 	
@@ -167,6 +179,7 @@ new Product({
 	description: 'A very delicate special mixture [Siwasho] of essential powers and herbs to be used for marriage, respect, and more lovers.',
 	summary: 'A mixture for having more lovers, respect and marriage', 
 	price:100,
+	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
 })
