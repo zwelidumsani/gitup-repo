@@ -221,7 +221,7 @@ router.get('/close-order/:id', isLoggedIn, function(req, res, next){
 
 router.get('/listing', function(req, res, next){
 	 Product.find({category: "healing"}, function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "HEALING AND CURE",products: docs});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "HERBAL NUTRITION",products: docs});
 	 });
 });
 
