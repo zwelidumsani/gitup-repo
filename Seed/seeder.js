@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 
 try {
-	const uri = 'mongodb://localhost/shopping';	
+	const uri = 'mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority';	
 	mongoose.connect( uri, {useNewUrlParser: true, useUnifiedTopology: true}, () =>
 	console.log("connected"));
 	}catch (error) { 
@@ -174,7 +174,7 @@ new Product({
 new Product({
 	imagePath: 'assets/img/money/canvas.png',
 	category:'affection',
-	title: 'Eselutsandvo',
+	title: 'Selutsandvo',
 	globalName: 'Solution',
 	description: 'A very delicate special mixture [Siwasho] of essential powers and herbs to be used for marriage, respect, and more lovers.',
 	summary: 'A mixture for having more lovers, respect and marriage', 
