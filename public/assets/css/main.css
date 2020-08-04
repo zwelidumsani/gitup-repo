@@ -799,7 +799,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .first-service .service-icon {
-	background-image: url(../img/lock.png);
+	background-image: url(../img/delivery.png);
 	transition: all 0.5s;
 }
 
@@ -820,7 +820,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .first-service:hover .service-icon {
-	background-image: url(../img/lock.png));
+	background-image: url(../img/delivery.png));
 }
 
 .second-service:hover .service-icon {
