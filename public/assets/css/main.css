@@ -820,7 +820,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .first-service:hover .service-icon {
-	background-image: url(../img/delivery.png);
+	background-image: url(../img/lock.png));
 }
 
 .second-service:hover .service-icon {
