@@ -799,17 +799,17 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .first-service .service-icon {
-	background-image: url(../img/delivery.png);
+	background-image: url(../img/heart.png);
 	transition: all 0.5s;
 }
 
 .second-service .service-icon {
-	background-image: url(../img/delivery.png);
+	background-image: url(../img/money-bag.png);
 	transition: all 0.5s;
 }
 
 .third-service .service-icon {
-	background-image: url(../img/delivery.png);
+	background-image: url(../img/herbal.png);
 	transition: all 0.5s;
 }
 
@@ -820,16 +820,16 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .first-service:hover .service-icon {
-	background-image: url(../img/delivery.png));
+	background-image: url(../img/heart.png));
 }
 
 .second-service:hover .service-icon {
-	background-image: url(../img/delivery.png);
+	background-image: url(../img/money-bag.png);
 }
 
 
 .third-service:hover .service-icon {
-	background-image: url(../img/delivery.png);
+	background-image: url(../img/herbal.png);
 }
 
 
