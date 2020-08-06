@@ -1,9 +1,12 @@
 var Product = require('../models/product');
 var mongoose = require('mongoose');
 
+//mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority
+//mongodb://localhost/shopping
+
 
 try {
-	const uri = 'mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority';	
+	const uri = 'mongodb://localhost/shopping';	
 	mongoose.connect( uri, {useNewUrlParser: true, useUnifiedTopology: true}, () =>
 	console.log("connected"));
 	}catch (error) { 
@@ -20,7 +23,7 @@ new Product({
 	summary: 'Gout, Piles, Internal Bleeding, Disorders, Ulcers, Cancer etc.  ',
 	price:100,
 	volume:'1 Litre',
-	instructions:'Instructions are still being prepared.',
+	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -32,7 +35,7 @@ new Product({
 	summary: 'Immune System, Sexual Performance, Blood, Digestion, etc',
 	price:100,
 	volume:'1 Litre',
-	instructions:'Instructions are still being prepared.',
+	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -44,7 +47,7 @@ new Product({
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count, etc',
 	price:100,
 	volume:'1 Litre',
-	instructions:'Instructions are still being prepared.',
+	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -56,7 +59,7 @@ new Product({
 	summary: 'Lower Back Pain, Bladder, Kidneys Failure, Sexual Stamina etc',
 	price:100,
 	volume:'1 Litre',
-	instructions:'Instructions are still being prepared.',
+	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
@@ -70,7 +73,7 @@ new Product({
 	summary: 'Painful Feet, Sweating, Suger Diabetes, High Blood Pressure etc',
 	price:100,
 	volume:'1 Litre',
-	instructions:'Instructions are still being prepared.',
+	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -82,7 +85,7 @@ new Product({
 	summary: 'TB(Tubercolosis), Piles, Stomach Pains, Blisters,etc', 
 	price:100,
 	volume:'1 Litre',
-	instructions:'Instructions are still being prepared.',
+	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
