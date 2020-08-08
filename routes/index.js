@@ -256,11 +256,6 @@ router.get('/product-details', (req, res) => {
 });
 
 
-
-router.get('/', isNotLoggedIn, function(req, res,next){
-	next();
-});
-
 router.get('/contact', function(req, res){
 	var emailSuccess = req.flash("email_success")[0];
 	var emailError = req.flash("email_error")[0];
@@ -378,10 +373,17 @@ router.get('/signup', function(req, res, next){
 
  
 router.post('/signup',passport.authenticate('strategy', {
-	 successRedirect:'/dashboard',
 	 failureRedirect:'/signup',
 	 failureFlash: true
-    })   
+    }), function(req, res,next){
+		if(req.session.oldUrl){
+			 var oldUrl = req.session.oldUrl
+			 req.session.oldUrl = null;
+			 res.redirect(oldUrl);
+		}else {
+			res.redirect('/dashboard');
+		}
+	}   
 );
 
 router.get('/signin', function(req, res, next){
@@ -390,10 +392,18 @@ router.get('/signin', function(req, res, next){
 });
 
 router.post('/signin',passport.authenticate('local', {
-	 successRedirect:'/dashboard',
 	 failureRedirect:'/signin',
 	 failureFlash: true
-    })
+    }), function(req, res, next){
+		 if(req.session.oldUrl){
+			 var oldUrl = req.session.oldUrl
+			 req.session.oldUrl = null;
+			 res.redirect(oldUrl);
+			
+		}else {
+			res.redirect('/dashboard');
+		}
+	}
 );
 	
 
@@ -406,8 +416,8 @@ function isLoggedIn (req, res, next){
    if (req.isAuthenticated()) {
 	   return next();
    }
-  /* res.session.oldUrl = req.url;*/
-   res.redirect('/signin');
+     req.session.oldUrl = req.url; ///checkout
+     res.redirect('/signin');
 }
 
 function isNotLoggedIn (req, res, next){
