@@ -220,21 +220,26 @@ router.get('/close-order/:id', isLoggedIn, function(req, res, next){
 });
 
 router.get('/listing', function(req, res, next){
+	 req.session.listingUrl = '/listing';
 	 Product.find({category: "healing"}, function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "HERBAL NUTRITION",products: docs});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "HERBAL NUTRITION",products: docs, 
+		 herbalNutritionStatus: "active"});
 	 });
 });
 
 router.get('/affection', function(req, res, next){
+	 req.session.listingUrl = '/affection';
 	 Product.find({category: "affection"}, function(err, docs){
 	 var affection;	 
-		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE AND AFFECTION",products: docs, affection:affection, affection:!affection});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE AND AFFECTION",products: docs, affection:affection, affection:!affection,
+		 loveAffectionStatus: "active"});
 	 });
 });
 
 router.get('/wealth', function(req, res, next){
+	 req.session.listingUrl = '/wealth';
 	 Product.find({category: "wealth"}, function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH AND SUCCESS",products: docs});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH AND SUCCESS",products: docs, wealthSuccessStatus:"active"});
 	 });
 });
 
@@ -244,6 +249,7 @@ router.get('/product-d/:id', (req, res) => {
 });
 
 router.get('/product-details', (req, res) => {
+	req.session.listingUrl = '/product-details';
 	Product.findById(proId, function(err, doc){
 		if(err){console.log("Error finding a Product", err.message);}
 		if(!doc){
@@ -308,26 +314,13 @@ router.get('/add-to-cart/:id', function(req, res,){
 			}
 			cart.add(product, product.id);
 			req.session.cart = cart;
-			return res.redirect('/listing');  
+			var listingUrl = req.session.listingUrl;
+			req.session.listingUrl = null;
+			return res.redirect(listingUrl);  
 	    });
 
 });
 
-router.get('/add-to-cart-desc/:id', function(req, res,){
-	
-		 var productId = req.params.id;
-	     var cart = new Cart(req.session.cart ? req.session.cart: {});
-			
-		 Product.findById(productId, function(err, product){
-			if (err){
-			   return res.redirect('/');
-			}
-			cart.add(product, product.id);
-			req.session.cart = cart;
-			return res.redirect('/product-details');  
-	    });
-
-});
 
 router.get('/reduce/:id', function(req, res, next){
 						

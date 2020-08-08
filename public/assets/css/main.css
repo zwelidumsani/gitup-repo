@@ -128,6 +128,13 @@ h3.block-title {
 /*====================================================
 		bootstrap default style overriding
 	====================================================*/
+.navigation{
+	 display:block;
+}	
+.descNavigation{
+	 display:none;
+}
+
 .closeOrder{
 	 margin-right: 10px; 
 }
