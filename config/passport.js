@@ -24,6 +24,10 @@ passport.use('strategy', new localStrategy({
 		return done(null, false, {message:'Invalid phone number'});
 	}
 	
+	 if (req.user){
+		return done(null, false, {message:'You are still logged in'});
+	}
+	
 	if(req.body.password != req.body.passwordTwo){
 		return done(null, false, {message:'Passwords do not Match'});
 	}

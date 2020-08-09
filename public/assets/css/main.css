@@ -775,13 +775,14 @@ nav#menu span.fa.fa-bars:hover {
 }   
 
 .services .service-item {
-	background-color:#48acef;
-	color: #fff;
+	background-color:#29921f;
+	color: white;
 	padding: 20px 30px 20px 30px;
 	text-align: center;
 	transition: all 0.5s;	
 	border: 1px solid transparent;
 	border-radius:10px;
+	border: 1px solid white;
 }
 
 .formContainer{
@@ -822,9 +823,9 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .service-item:hover {
-	color: white;
-	background-color: #29921f;
-	border: 1px solid white;
+	color: black;
+	background-color: #E6E6FA;
+	border: 1px solid  black;
 }
 
 .first-service:hover .service-icon {
