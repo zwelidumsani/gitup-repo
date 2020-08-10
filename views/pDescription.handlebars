@@ -5,9 +5,6 @@
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
               <h2 class="page-title">{{headin}}</h2>
-			  <div class = "cartView">
-				<a class = "label label-danger" href = '/shopping-cart' data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom" style= "margin-top:20px;"><i class = "lnr lnr-cart"></i> Items In Cart  <span class = "badge" style = "background:#006400;">{{session.cart.totalQty}}</strong></a>
-              </div>
 			</div>
           </div>
         </div>
@@ -26,6 +23,11 @@
 	
     </ul>
 	
+	<ul id = "myTab" class = "nav nav-tabs descNavigation">
+    <li><a href = "/shopping-cart"><i class = "lnr lnr-cart"></i> Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
+	
+    </ul>
+	
 <div style="background:#E6E6FA">
     <div class="container">		
 		 <div class = "formContainer">
@@ -40,26 +42,18 @@
 				    <table class = "table table-condensed">
 						<tr> 
 						<th>Product: </th>
-							 <td><i class = "lnr lnr-leaf"></i><strong style = "color: #006400";> {{product.title}}</strong></td>
+							 <td><i class = "lnr lnr-leaf"></i><strong style = "color: #006400; font-size:20px;"> {{product.title}}</strong></td>
 						</tr> 
 						
-						<tr>
-						<th>Effectiveness:</th>
-							<td  class = "progress-striped">		      
-								<div class = "progress-bar progress-bar-success" role ="progressbar" aria-valuenow= "80" aria-valuemin= "0" aria-valuemax = "100" style= "width: 80%;">
-									 80 %
-								</div>
-							</td>
-						</tr>
+						<tr> 
+						<th>Category: </th>
+							 <td>{{product.category}}</td>
+						</tr> 
 						
-						<tr>
-							<th>Availability:</th>
-							<td class = "progress-striped">
-							     <div class = "progress-bar progress-bar-success" role ="progressbar" aria-valuenow= "80" aria-valuemin= "0" aria-valuemax = "100" style= "width: 60%;">
-									 60 %
-								</div>
-							</td>
-						</tr>
+						<tr> 
+						<th>Description: </th>
+							 <td>{{product.description}}</td>
+						</tr> 
 						
 						<tr>
 							<th>Price:</th>
@@ -74,9 +68,20 @@
 						
 						
 						<tr>
-							<th>Description:</th>
-							<td>{{product.description}}</td>
+							<th>Solution(s):</th>
+							     <td>
+							     {{#each descArray}}
+							         <span class = "badge" style = "margin-top:5px;">{{this}}</span>
+							     {{/each}}
+							     </td>
 						</tr>
+						
+						<tr>
+						 <th>Instructions:</th>
+							<td">		      
+								 <td>{{product.instructions}}</td>
+							</td>
+						 </tr>
 						 
 						
 			    </table>  
@@ -86,46 +91,15 @@
 			</div>	
 	</div>
 	
-
-	
-	
-<ul id = "myTab" class = "nav nav-tabs">
-     <li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>
-    <li>
-	    <a href = "#home" data-toggle = "tab">
-		    <i class= "lnr lnr-chevron-down"></i> Treatment
-		</a>
-	</li>
-	
-	<li><a href = "#ios" data-toggle = "tab"><i class= "lnr lnr-chevron-down"></i> Instructions</a></li>
-	
-<!--<li><a href = "#me" data-toggle = "tab"><i class= "lnr lnr-chevron-down"></i> Testimonials</a></li>-->
-	
-	
-</ul>
-
-<div id = "myTabContent" class ="tab-content">
-    <div class= "tab-pane fade in active" id = "home">
-	    <p class = "well">
-		     <strong>{{product.description}}</strong>
-		</p>
-	</div>
-	<div class= "tab-pane fade" id = "ios">
-	    <p class = "well">
-		     <strong>{{product.instructions}}</strong>
-		</p>
-	</div>
-	<div class= "tab-pane fade" id = "me">
-	    <p class = "well">
-		     <strong>{{product.testimonials}}</strong>
-		</p>
-	</div>
-	
-</div>
 			</div>			
 		</div>
     </div>
 </div>
+
+	<ul id = "myTab" class = "nav nav-tabs navigation">
+    <li><a href = "/shopping-cart"><i class = "lnr lnr-cart"></i> Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
+	
+    </ul>
 
 <ul id = "myTab" class = "nav nav-tabs descNavigation">
      <li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>

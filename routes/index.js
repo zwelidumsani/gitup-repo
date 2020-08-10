@@ -15,9 +15,21 @@ const authToken = 'a96369219c9c9bcc60f0433ed2b17e06';
 const client = require('twilio')(accountSid, authToken);
 
 router.get('/', (req, res) => {
+	 var productsArray = [];
 	 const accRemoval = req.flash('acc-removal')[0]; 
-     Product.find({category: "healing"}, function(err, docs){	
-		 res.render('index', {products: docs, accRemoval: accRemoval});
+     Product.find({category: "healing"}, function(err, products){	
+	     products.forEach(function(product){
+			 var summaryArray = product.summary.split(',');
+			 var productObject = {
+				 id: product._id,
+				 title:product.title,
+				 summary:summaryArray,
+				 image:product.imagePath
+			}
+			productsArray.push(productObject);			
+		 });
+		 
+		 res.render('index', {products: productsArray, accRemoval: accRemoval});
 	});		
 })
 
@@ -249,14 +261,17 @@ router.get('/product-d/:id', (req, res) => {
 });
 
 router.get('/product-details', (req, res) => {
+	
 	req.session.listingUrl = '/product-details';
 	Product.findById(proId, function(err, doc){
 		if(err){console.log("Error finding a Product", err.message);}
 		if(!doc){
-			console.log("Product unavailable")
+			console.log("Product unavailable");
 			return res.redirect('/listing');
 		}else {
-			 return res.render("pDescription", {headin: "Product Details", product: doc});
+			
+			 var descArray = doc.solution.split(',');
+			 return res.render("pDescription", {headin: "Product Details", product: doc, descArray: descArray});
 		}
 	});	
 });

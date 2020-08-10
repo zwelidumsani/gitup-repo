@@ -824,7 +824,7 @@ nav#menu span.fa.fa-bars:hover {
 
 .service-item:hover {
 	color: black;
-	background-color: #E6E6FA;
+	background-color: white;
 	border: 1px solid  black;
 }
 
@@ -1137,8 +1137,7 @@ select > opation:focus {
   border-radius:10px;
 }
 .tru-product{
-	margin-bottom:30px;
-	border-radius:20px;
+	border-radius:10px;
 }
 
 .advanced-search{
@@ -1161,11 +1160,12 @@ select > opation:focus {
 }
 #new-products .product-item .carousel-thumb{
   display: block;
-  border: 1px solid white;
+  background:white;
+  border: 2px solid transparent;
   padding: 10px;
   margin-bottom: 10px;
   position: relative;
-  border-radius:4px;
+  border-radius:10px;
   z-index: 99;
   overflow: hidden;
   -webkit-transition: all .4s ease;
@@ -1237,9 +1237,11 @@ select > opation:focus {
 }
 
 #new-products .product-item .carousel-thumb:hover{
-     border-color: white;
-     border: 1px solid green;
+     border: 2px solid green;
+     background:white;	 
 }
+
+
 #new-products .product-item .carousel-thumb:hover .overlay{
   opacity: 1;
   visibility: visible;

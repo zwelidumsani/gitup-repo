@@ -5,9 +5,6 @@
           <div class="col-md-12">
             <div class="breadcrumb-wrapper">
               <h2 class="page-title">{{headin}}</h2>
-			  <div class = "cartView">
-				<a class = "label label-danger" href = '/shopping-cart' data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom" style= "margin-top:20px;"><i class = "lnr lnr-cart"></i> Items In Cart  <span class = "badge" style = "background:#006400;">{{session.cart.totalQty}}</strong></a>
-              </div>
 			</div>
           </div>
         </div>
@@ -25,6 +22,11 @@
 	<li><a href = "/signup"><i class = "lnr lnr-user"></i> Create Account</a></li>
 	
     </ul>
+	
+	<ul id = "myTab" class = "nav nav-tabs descNavigation">
+    <li><a href = "/shopping-cart"><i class = "lnr lnr-cart"></i> Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
+	
+    </ul>
 
 	
 <div style="background:#E6E6FA">
@@ -33,7 +35,7 @@
      <div class = "formContainer">
      <h3 class="section-title"><small>{{result}}</small></h3>
         <div class="row">
-		{{#each products}}
+		 {{#each products}}
 						<div class = "col-lg-4 col-md-6 col-sm-6" col-xm-12>
 							<div class = "thumbnail" style = "margin-bottom:30px;">
 								   <a href = "/product-d/{{this.id}}"><img src = "{{this.imagePath}}" alt = "" class = "img-responsive"></a>
@@ -47,15 +49,20 @@
 								</div>
 							</div>
 						</div>
-
-        {{/each}}
+         {{/each}}
 				 
              </div>	
 		</div>
     </div>
 </div>
 
-	<ul id = "myTab" class = "nav nav-tabs">
+
+	<ul id = "myTab" class = "nav nav-tabs navigation">
+    <li><a href = "/shopping-cart"><i class = "lnr lnr-cart"></i> Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
+	
+    </ul>
+
+	<ul id = "myTab" class = "nav nav-tabs descNavigation">
      <li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>
 	 <li><a href = "#"> About Us</a></li>
 	 <li class="{{herbalNutritionStatus}}"><a href = "/listing"><i class = "lnr lnr-list"></i> Herbal Nutrition</a></li>

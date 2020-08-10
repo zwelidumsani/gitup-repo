@@ -28,9 +28,14 @@
                         <div class="item">
                             <div class="product-item">
                                 <div class="carousel-thumb">
-                                    <a  href="/product-d/{{this.id}}"><img src="{{this.imagePath}}" alt="Product Image">
+                                    <a  href="/product-d/{{this.id}}"><img src="{{this.image}}" alt="Product Image">
 									<br>
-									<strong style = "grey:black" class = "text-right">TREATS: {{this.summary}}</strong>
+									<h3>Herbal Mixture</h3>
+									<ul class = "list-inline styled">
+									 {{#each summary}}
+										 <li>{{this}}</li>
+									 {{/each}}	 
+									</ul>
 									 <a href="/product-d/{{this.id}}" class="btn btn-common btn-go-to-index center-block" href="/listing" style = "margin-top:10px;"><span class="lnr lnr-leaf"></span> {{this.title}}</a>
                                 </div>  
                             </div>
