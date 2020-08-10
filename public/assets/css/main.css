@@ -1140,10 +1140,6 @@ select > opation:focus {
 	border-radius:10px;
 }
 
-.tru-product:hover{
-	border:2px solid green;
-}
-
 .advanced-search{
 	background-color: #44f134;
 }
