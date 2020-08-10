@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 
 
 try {
-	const uri = 'mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority';	
+	const uri = 'mongodb://localhost/shopping';	
 	mongoose.connect( uri, {useNewUrlParser: true, useUnifiedTopology: true}, () =>
 	console.log("connected"));
 	}catch (error) { 
