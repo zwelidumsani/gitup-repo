@@ -88,7 +88,7 @@ new Product({
 	globalName: 'Treatment',
 	solution: 'TB, Body Sores, Piles, Cancer, Drop, Blisters, Stomach Pains, Blood Cleanser',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
-	summary: 'TB(Tubercolosis), Piles, Cancer, Body Sores, Skin SBlisters, Stomach Pains', 
+	summary: 'TB(Tubercolosis), Piles, Cancer, Body Sores, Skin Blisters, Stomach Pains', 
 	price:100,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
