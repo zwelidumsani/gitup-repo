@@ -5,7 +5,6 @@ var schema = new Schema({
 	imagePath:{type: String, required: true,trim: true},
 	category:{type: String, required: true,trim: true},
 	title:{type: String, required: true, trim: true},
-	globalName:{type: String, required: true, trim: true},
 	solution:{type: String, required: true, trim: true},
 	description:{type: String, required: true, trim: true},
 	summary:{type: String, required: true, trim: true},

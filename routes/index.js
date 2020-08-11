@@ -17,7 +17,7 @@ const client = require('twilio')(accountSid, authToken);
 router.get('/', (req, res) => {
 	 var productsArray = [];
 	 const accRemoval = req.flash('acc-removal')[0]; 
-     Product.find({category: "healing"}, function(err, products){	
+     Product.find({category: 'Treatment'}, function(err, products){	
 	     products.forEach(function(product){
 			 var summaryArray = product.summary.split(',');
 			 var productObject = {
@@ -38,7 +38,6 @@ router.get('/', (req, res) => {
 router.get('/logout', isLoggedIn, function(req, res, next){
 	req.session.cart=null;
     req.logout();
-	
 	res.redirect('/');
 });
 
@@ -231,17 +230,17 @@ router.get('/close-order/:id', isLoggedIn, function(req, res, next){
 	 });
 });
 
-router.get('/listing', function(req, res, next){
+router.get('/treatment', function(req, res, next){
 	 req.session.listingUrl = '/listing';
-	 Product.find({category: "healing"}, function(err, docs){
+	 Product.find({category: 'Treatment'}, function(err, docs){
 		 return res.render('listing', {title: 'Shopping Cart',headin: "HERBAL NUTRITION",products: docs, 
 		 herbalNutritionStatus: "active"});
 	 });
 });
 
-router.get('/affection', function(req, res, next){
+router.get('/relations', function(req, res, next){
 	 req.session.listingUrl = '/affection';
-	 Product.find({category: "affection"}, function(err, docs){
+	 Product.find({category: 'Relations'}, function(err, docs){
 	 var affection;	 
 		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE AND AFFECTION",products: docs, affection:affection, affection:!affection,
 		 loveAffectionStatus: "active"});
@@ -250,7 +249,7 @@ router.get('/affection', function(req, res, next){
 
 router.get('/wealth', function(req, res, next){
 	 req.session.listingUrl = '/wealth';
-	 Product.find({category: "wealth"}, function(err, docs){
+	 Product.find({category: 'Wealth'}, function(err, docs){
 		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH AND SUCCESS",products: docs, wealthSuccessStatus:"active"});
 	 });
 });
