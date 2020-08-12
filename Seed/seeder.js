@@ -42,7 +42,7 @@ new Product({
 	imagePath:'assets/img/product/vukautimele.jpg',
 	category:'Treatment',
 	title: 'Vuka Utimele',
-	solution: 'Drop, Body Sores, Piles, Prostrate Cancer, Blood Cleanser, Peumonia, Chest Pain, Pimples, Iching, Thrush, CD4-Count Booster',
+	solution: 'Drop, Body Sores, Piles, Prostrate Cancer, Blood Cleanser, Pneumonia, Chest Pain, Pimples, Iching, Thrush, CD4-Count Booster',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count',
 	price:100,
