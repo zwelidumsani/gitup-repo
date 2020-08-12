@@ -231,7 +231,7 @@ router.get('/close-order/:id', isLoggedIn, function(req, res, next){
 });
 
 router.get('/treatment', function(req, res, next){
-	 req.session.listingUrl = '/listing';
+	 req.session.listingUrl = '/treatment';
 	 Product.find({category: 'Treatment'}, function(err, docs){
 		 return res.render('listing', {title: 'Shopping Cart',headin: "HERBAL NUTRITION",products: docs, 
 		 herbalNutritionStatus: "active"});
@@ -239,7 +239,7 @@ router.get('/treatment', function(req, res, next){
 });
 
 router.get('/relations', function(req, res, next){
-	 req.session.listingUrl = '/affection';
+	 req.session.listingUrl = '/relations';
 	 Product.find({category: 'Relations'}, function(err, docs){
 	 var affection;	 
 		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE AND AFFECTION",products: docs, affection:affection, affection:!affection,
