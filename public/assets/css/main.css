@@ -128,6 +128,11 @@ h3.block-title {
 /*====================================================
 		bootstrap default style overriding
 	====================================================*/
+
+.resposiveCheckoutButton{
+	display:none;
+}	
+	
 .navigation{
 	 display:block;
 }	
