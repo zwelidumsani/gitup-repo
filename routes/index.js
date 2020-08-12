@@ -260,15 +260,13 @@ router.get('/product-d/:id', (req, res) => {
 });
 
 router.get('/product-details', (req, res) => {
-	
-	req.session.listingUrl = '/product-details';
+     req.session.listingUrl  = '/product-details';
 	Product.findById(proId, function(err, doc){
 		if(err){console.log("Error finding a Product", err.message);}
 		if(!doc){
 			console.log("Product unavailable");
-			return res.redirect('/listing');
-		}else {
-			
+			return res.redirect('/');
+		}else { 
 			 var descArray = doc.solution.split(',');
 			 return res.render("pDescription", {headin: "Product Details", product: doc, descArray: descArray});
 		}

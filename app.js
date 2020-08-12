@@ -27,11 +27,11 @@ var indexRouter = require('./routes/index');
 //mongodb://localhost/shopping
 mongoClient.connect('mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority',{  
   useUnifiedTopology: true
+    .catch(err => {
+		
 }).then(() =>{
 	     console.log("DB-Connection successfull!");
-	})
-    .catch(err => {
-		console.log("DB-Connection failed!");
+	})console.log("DB-Connection failed!");
 	})	
 
 var app = express();
