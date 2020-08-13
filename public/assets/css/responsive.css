@@ -495,6 +495,10 @@
 	 display:none;
 }
 
+.canvass{
+	display:none;
+}
+
 .descNavigation{
 	 display:block;
 }
@@ -503,9 +507,23 @@
 	  width:156px;
 	  height:35px;
   }
+.borderWrap{
+     padding-top:22px;
+     padding-bottom: 15px;	 
+}
+
+.navi{
+	display:block;
+}
 
 }
 @media (max-width: 320px) {
+
+.borderWrap{
+     padding-top:22px;
+     padding-bottom: 15px;	 
+}
+	
 	.btn-common-description {
          padding: 10px 21px;
 		 margin-bottom: 21px;

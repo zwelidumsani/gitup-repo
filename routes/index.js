@@ -242,7 +242,7 @@ router.get('/relations', function(req, res, next){
 	 req.session.listingUrl = '/relations';
 	 Product.find({category: 'Relations'}, function(err, docs){
 	 var affection;	 
-		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE AND AFFECTION",products: docs, affection:affection, affection:!affection,
+		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE & RELATIONS",products: docs, affection:affection, affection:!affection,
 		 loveAffectionStatus: "active"});
 	 });
 });
@@ -250,7 +250,7 @@ router.get('/relations', function(req, res, next){
 router.get('/wealth', function(req, res, next){
 	 req.session.listingUrl = '/wealth';
 	 Product.find({category: 'Wealth'}, function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH AND SUCCESS",products: docs, wealthSuccessStatus:"active"});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH & SUCCESS",products: docs, wealthSuccessStatus:"active"});
 	 });
 });
 
@@ -381,6 +381,7 @@ router.post('/signup',passport.authenticate('strategy', {
 	 failureRedirect:'/signup',
 	 failureFlash: true
     }), function(req, res,next){
+		
 		if(req.session.oldUrl){
 			 var oldUrl = req.session.oldUrl
 			 req.session.oldUrl = null;
@@ -400,6 +401,7 @@ router.post('/signin',passport.authenticate('local', {
 	 failureRedirect:'/signin',
 	 failureFlash: true
     }), function(req, res, next){
+		req.session.sessionUser = req.user
 		 if(req.session.oldUrl){
 			 var oldUrl = req.session.oldUrl
 			 req.session.oldUrl = null;

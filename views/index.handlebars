@@ -9,9 +9,12 @@
             <p class="sub-title">We sell African traditional medicine and muthi to treat sicknesses and to resolve spiritual or ancestral problems. You can now make an online <strong>order</strong>. Join us today by creating an account so as to be granted access to our platform. Registration is free of charge.<br> 
                                  		                                                                                                             
 		     Lets hold hands together and say No to <span class = "label label-success">COVID-19</span></p>
-			
-				    <a href = "/treatment"><button class="btn btn-common btn-search pull-center"><strong><i class = "lnr lnr-cart"></i>Make An Order Now</strong></button></a>
-			
+			     {{#if login}}
+				     <a href = "/dashboard"><button class="btn btn-common btn-search pull-center"><strong><i class = "lnr lnr-cart"></i>My Orders</strong></button></a>
+			     {{else}}
+				     <a href = "/signin"><button class="btn btn-common btn-search pull-center"><strong><i class = "lnr lnr-gift"></i>Order Now</strong></button></a>
+			    {{/if}} 
+				
             <!-- End Search box -->
           </div>
         </div>

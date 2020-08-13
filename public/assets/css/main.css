@@ -132,6 +132,15 @@ h3.block-title {
 .resposiveCheckoutButton{
 	display:none;
 }	
+
+.borderWrap{
+	border:1px solid grey;
+	border-radius:5px;
+}
+
+.navi{
+	display:none;
+}
 	
 .navigation{
 	 display:block;

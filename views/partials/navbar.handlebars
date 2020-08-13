@@ -18,65 +18,72 @@
 		  
           <!-- brand and toggle menu for mobile End -->
 		  
-		  
 	
 
 
           <!-- Navbar Start -->
 		  <form action = "/logout" method = "post">
           <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav navbar-right">
+		   
+		   
+		   
+            <ul class="nav navbar-nav navbar-right borderWrap">
+					<li><span class = "navi" style = "margin-bottom:16px;"><a href = "/"><i class = "lnr lnr-home"></i> Home</a></span></li>	
+					<li><span class = "navi" style = "margin-bottom:16px;"><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></span></li>
+					<li><span class = "navi" style = "margin-bottom:16px;"><a href = "/treatment"><i class = "lnr lnr-list"></i> Herbal Nutrition</a></span></li>
+					<li><span class = "navi" style = "margin-bottom:16px;"><a href = "/relations"><i class = "lnr lnr-list"></i> Love & Relations</a></span></li>
+					<li><span class = "navi" style = "margin-bottom:16px;"><a href = "/wealth"><i class = "lnr lnr-list"></i> Wealth & Success</a></span></li>
+					<li><li><span class = "navi" style = "margin-bottom:10px;"><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contacts Us</a></spa></li> 
+			  {{#if login}}
+			  <li><a href="/dashboard"><strong>ID:</strong> {{session.sessionUser.email}}</a></li> 
+			  {{/if}}
 			  <li><a href="/shopping-cart" data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom"><i class="lnr lnr-cart"></i>Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
 			  
 			  <li class = "dropdown">
 			    <a href = "/dashboard" class = "dropdown-toggle" data-toggle = "dropdown">
-			     <i class = "lnr lnr-user"></i>Account
+			     <i class = "lnr lnr-user"></i>User Account
 				<b class="caret"></b>
 				</a>
 				<ul class = "dropdown-menu">
 				     {{#if login}}
 					 <li><a href="/logout"><i class="lnr lnr-enter"></i> Logout</a></li>
-					<li><a type = "submit" href="/dashboard"><i class="lnr lnr-user"></i> User Account</a></li>
+					<li><a type = "submit" href="/dashboard"><i class="lnr lnr-user"></i>User Profile</a></li>
 					 {{else}}
 					 	 <li><a href="/signin"><i class="lnr lnr-enter"></i> Login</a></li>
-					<li><a type = "submit" href="signup"><i class="lnr lnr-user"></i> SignUp</a></li>
+					<li><a type = "submit" href="signup"><i class="lnr lnr-pencil"></i> Create Account</a></li>
 					 {{/if}}
 				    
 				</ul>
 			</li>
-			
-              <li class="postadd">
-                <a class="btn btn-danger btn-post" href="/signup"><span class="lnr lnr-plus-circle"></span> Register</a>
-              </li>
             </ul>
           </div>
           <!-- Navbar End -->
         </div>
 		</form>
 </nav>
-
-  <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> 
-      <!--- Off Canvas Side Menu -->
-        <div class="close" data-toggle="offcanvas" data-target=".navmenu">
-            <i class="lnr lnr-cross"></i>
-        </div>
-          <h3 class="title-menu">All Pages</h3>
-          <ul class="nav navmenu-nav"> <!--- Menu -->
-            <li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>
-		    <li><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></li>
-			<li><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contacts Us</a></li>
-			<li><a href = "/treatment"><i class = "lnr lnr-list"></i> Herbal Nutrition</a></li>
-			<li><a href = "/relations"><i class = "lnr lnr-list"></i> Love & Affection</a></li>
-			<li><a href = "/wealth"><i class = "lnr lnr-list"></i> Wealth & Success</a></li>
-		    <li><a href="/shopping-cart" data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom"><i class="lnr lnr-cart"></i> Shopping Cart<span class = "badge"> {{session.cart.totalQty}}</span></a></li>
-		   
-        </ul><!--- End Menu -->
-      </div> <!--- End Off Canvas Side Menu -->
-      <div class="tbtn wow pulse" id="menu" data-wow-iteration="infinite" data-wow-duration="500ms" data-toggle="offcanvas" data-target=".navmenu">
-        <p><i class="lnr lnr-menu-circle"></i> All Pages</p>
-      </div>
+<div class = "navigation">
+	  <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> 
+		  <!--- Off Canvas Side Menu -->
+			<div class="close" data-toggle="offcanvas" data-target=".navmenu">
+				<i class="lnr lnr-cross"></i>
+			</div>
+			  <h3 class="title-menu">All Pages</h3>
+			  <ul class="nav navmenu-nav"> <!--- Menu -->
+				<li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>
+				<li><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></li>
+				<li><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contacts Us</a></li>
+				<li><a href = "/treatment"><i class = "lnr lnr-list"></i> Herbal Nutrition</a></li>
+				<li><a href = "/relations"><i class = "lnr lnr-list"></i> Love & Relations</a></li>
+				<li><a href = "/wealth"><i class = "lnr lnr-list"></i> Wealth & Success</a></li>
+				<li><a href="/shopping-cart" data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom"><i class="lnr lnr-cart"></i> Shopping Cart<span class = "badge"> {{session.cart.totalQty}}</span></a></li>
+			   
+			</ul><!--- End Menu -->
+		  </div> <!--- End Off Canvas Side Menu -->
+		  <div class="tbtn wow pulse" id="menu" data-wow-iteration="infinite" data-wow-duration="500ms" data-toggle="offcanvas" data-target=".navmenu">
+			<p><i class="lnr lnr-menu-circle"></i> All Pages</p>
+		  </div>
+	</div>
 </div>
-
 
 
 
