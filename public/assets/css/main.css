@@ -1157,6 +1157,12 @@ select > opation:focus {
 }
 .tru-product{
 	border-radius:10px;
+	border: 2px solid transparent;
+}
+
+.tru-product:hover{
+	border-radius:10px;
+	border: 2px solid green;
 }
 
 .advanced-search{
