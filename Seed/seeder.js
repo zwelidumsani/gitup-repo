@@ -30,12 +30,12 @@ new Product({
 	imagePath:'assets/img/product/guleni.jpg',
 	category:'Treatment',
 	title: 'Guleni',
-    solution: 'Immune System Booster',
+    solution: 'Immune System Booster, Hiccups, Diarrhea, Appetite, Spasmodic Pains, Swollen Feet, Blisters, Glands on neck, Oral Thrush, Body Pain, Headache, Ulcers.',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
-	summary: 'Immune System, Sexual Stamina, Blood Cleanser, Digestion, CD-4 Count',
+	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Swollen Feet',
 	price:100,
 	volume:'1 Litre',
-	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
+	instructions:'Drink half a glass there(3) timees per day.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
