@@ -34,7 +34,7 @@
      <h3 class="section-title"><small>{{result}}</small></h3>
         <div class="row">
 		 {{#each products}}
-						<div class = "col-lg-4 col-md-6 col-sm-6 col-xm-12">
+						<div class = "col-lg-4 col-md-4 col-sm-6 col-xm-12">
 							<div class = "thumbnail" style = "margin-bottom:20px;">
 								   <a href = "/product-d/{{this.id}}"><img src = "{{this.imagePath}}" alt = "" class = "img-responsive"></a>
 								   <div class = "caption">
@@ -68,7 +68,6 @@
 	<li class="{{wealthSuccessStatus}}"><a href = "/wealth"><i class = "lnr lnr-list"></i> Wealth & Success</a></li>
 	<li><a href = "/dashboard"><i class = "lnr lnr-user"></i> Dashboard</a></li>
 	<li><a href = "/contact"><i class = "lnr lnr-envelope"></i> Contact Us</a></li>
-	<li><a href = "/signup"><i class = "lnr lnr-user"></i> Create Account</a></li>
 	<li><a href = "/shopping-cart"><i class = "lnr lnr-cart"></i> Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
 	
 	
