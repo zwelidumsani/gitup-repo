@@ -32,7 +32,7 @@ new Product({
 	title: 'Guleni',
     solution: 'Immune System Booster, Hiccups, Diarrhea, Appetite, Spasmodic Pains, Swollen Feet, Blisters, Glands on neck, Oral Thrush, Body Pain, Headache, Ulcers.',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
-	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Swollen Feet',
+	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Blisters',
 	price:100,
 	volume:'1 Litre',
 	instructions:'Drink half a glass there(3) timees per day.',
