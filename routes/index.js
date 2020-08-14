@@ -381,7 +381,7 @@ router.post('/signup',passport.authenticate('strategy', {
 	 failureRedirect:'/signup',
 	 failureFlash: true
     }), function(req, res,next){
-		
+		req.session.sessionUser = req.user
 		if(req.session.oldUrl){
 			 var oldUrl = req.session.oldUrl
 			 req.session.oldUrl = null;
