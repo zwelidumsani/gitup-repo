@@ -181,7 +181,7 @@ router.post('/order',isLoggedIn, function(req, res, next){
 				 
 		         client.messages
                  .create({
-                     body: 'Your Eswatini Herbal Nutrition Order is being prepared. ~Thank You.',
+                     body: 'Eswatini Herbal Nutrition: Your order is being prepared. ~Thank You.',
                      from: '+13103599135',
                      to: completeCellNumber.toString()
 					 
