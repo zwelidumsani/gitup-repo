@@ -28,7 +28,7 @@
     "serve-favicon": "^2.5.0",
     "serve-static": "1.13.2",
     "sessions": "0.0.2-7",
-    "twilio": "^3.48.0"
+    "twilio": "^3.48.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2",

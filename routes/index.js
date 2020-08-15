@@ -10,8 +10,8 @@ var passport = require('passport');
 var clientOrder = {};
 var proId;
 
-const accountSid = 'AC3c506767f08d7269912cf174bce0b68d';
-const authToken = 'a96369219c9c9bcc60f0433ed2b17e06';
+const accountSid = 'AC3c506767f08d7269912cf174bce0b68d'; 
+const authToken = '896a17370c28d4a7c7472ea01d119b6f'; 
 const client = require('twilio')(accountSid, authToken);
 
 router.get('/', (req, res) => {
@@ -162,7 +162,7 @@ router.post('/order',isLoggedIn, function(req, res, next){
 		     user: req.user,
 		     cart: cart,
 		     name: req.body.name,
-		     phone: req.body.phone,
+		     phone: req.body.phone, 
 		     address: req.body.address,
 		     country: req.body.country,
 			 statusCss:"label label-info",
@@ -171,16 +171,20 @@ router.post('/order',isLoggedIn, function(req, res, next){
 	    }); 
 		
 		clientOrder.save(function(err, doc){
+		    completeCellNumber = '+268'+req.body.phone;
+			console.log(completeCellNumber);
 			if(err){
 				 console.log("Could not save order",err.message);
 			}else {
 				 req.session.cart = null;
 				 req.flash('order_success', 'Order saved successfully.')
+				 
 		         client.messages
                  .create({
-                     body: 'Your Eswatini Herbal Treatment order is being prepared. ~Regards.',
+                     body: 'Your Eswatini Herbal Nutrition Order is being prepared. ~Thank You.',
                      from: '+13103599135',
-                     to: '+268'+req.body.phone
+                     to: completeCellNumber.toString()
+					 
                 })
                  .then(message => console.log(message.sid));
 				 res.redirect('/checkout'); 
