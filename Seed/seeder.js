@@ -175,7 +175,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/sihlati-semloti.jpg',
+	imagePath: 'assets/img/product/sihlati-semloti.jpg', 
 	category:'Relations',
 	title: 'Selutsandvo',
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
