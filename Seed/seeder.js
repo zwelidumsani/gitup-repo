@@ -91,7 +91,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/money/canvas.png',
+	imagePath: 'assets/img/product/money-drawing-b.jpg',
 	category:'Wealth',
 	title: 'Money Drawer',
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
@@ -105,7 +105,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/money/canvas.png',
+	imagePath: 'assets/img/product/mafutha-wemali.jpg',
 	category:'Wealth',
 	title: 'Mafutha Wemali',
 	description: 'A very special mixture of essential oils & herbs',
@@ -119,7 +119,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/money/canvas.png',
+	imagePath: 'assets/img/product/siwasho-semali.jpg',
 	category:'Wealth',
 	title: 'Insipho Yemali',
 	description: 'A special mixture of powerful herbs',
@@ -133,9 +133,9 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/money/canvas.png',
+	imagePath: 'assets/img/product/ingezo-yetimanga.jpg',
 	category:'Wealth',
-	title: 'Ingezo Yetimali',
+	title: 'Ingezo Yetimanga',
 	description: 'A special mixture of powerful herbs[Siwasho]',
 	solution: 'successful churches, respect, peace, & love',
 	summary: 'A mixture for luck, successful churches, love and respect', 
@@ -147,7 +147,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/money/canvas.png',
+	imagePath: 'assets/img/product/esemshado.jpg',
 	category:'Relations',
 	title: 'Esemshado',
     description: 'A very special mixture of powerful herbs [Siwasho]',
@@ -161,7 +161,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/money/canvas.png',
+	imagePath: 'assets/img/product/wozawoza.jpg',
 	category:'Relations',
 	title: 'Woza Woza',
 	description: 'A very delicate and special mixture of herbs & mineral saults',
@@ -175,9 +175,9 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/sihlati-semloti.jpg', 
+	imagePath: 'assets/img/product/lucky-soap.jpg', 
 	category:'Relations',
-	title: 'Selutsandvo',
+	title: 'Lucky Soup',
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
