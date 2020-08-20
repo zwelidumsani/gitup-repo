@@ -90,22 +90,23 @@ new Product({
 	
 }),
 
+
 new Product({
-	imagePath: 'assets/img/product/money-drawing-b.jpg',
+	imagePath: 'assets/img/product/wealth/siwasho-semali.jpg',
 	category:'Wealth',
 	title: 'Money Drawer',
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:30,
+	price:45,
 	volume:'150g',
-	instructions:'Futsa, Geza, Gaba',
+	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
 
 new Product({
-	imagePath: 'assets/img/product/mafutha-wemali.jpg',
+	imagePath: 'assets/img/product/wealth/mafutha-wemali.jpg',
 	category:'Wealth',
 	title: 'Mafutha Wemali',
 	description: 'A very special mixture of essential oils & herbs',
@@ -119,9 +120,9 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/siwasho-semali.jpg',
+	imagePath: 'assets/img/product/wealth/money-soap.jpg',
 	category:'Wealth',
-	title: 'Insipho Yemali',
+	title: 'Money Soup',
 	description: 'A special mixture of powerful herbs',
 	solution: 'Luck, Business Success, Gambling Success, Money Attraction',
 	summary: 'A mixture for luck, business success and successful gambling', 
@@ -133,7 +134,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/ingezo-yetimanga.jpg',
+	imagePath: 'assets/img/product/wealth/ingezo-yetimanga.jpg',
 	category:'Wealth',
 	title: 'Ingezo Yetimanga',
 	description: 'A special mixture of powerful herbs[Siwasho]',
@@ -147,7 +148,36 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/esemshado.jpg',
+	imagePath: 'assets/img/product/wealth/sihlati-semloti.jpg',
+	category:'Wealth',
+	title: 'Sihlati Semloti',
+	description: 'A very special mixture [Sihlati] of essential powers & herbs',
+	solution: 'Mostly used by traditional healers',
+	summary: 'Sihlati', 
+	price:45,
+	volume:'150g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/wealth/money-drawing.jpg',
+	category:'Wealth',
+	title: 'Money Drawer',
+	description: 'A very special mixture [Siwasho] of essential powers & herbs',
+	solution: 'Luck, Business Success, Gambling Success',
+	summary: 'A mixture for luck, business success and successful gambling', 
+	price:30,
+	volume:'150g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
+
+new Product({
+	imagePath: 'assets/img/product/love/esemshado.jpg',
 	category:'Relations',
 	title: 'Esemshado',
     description: 'A very special mixture of powerful herbs [Siwasho]',
@@ -161,7 +191,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/wozawoza.jpg',
+	imagePath: 'assets/img/product/love/wozawoza.jpg',
 	category:'Relations',
 	title: 'Woza Woza',
 	description: 'A very delicate and special mixture of herbs & mineral saults',
@@ -175,13 +205,13 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/lucky-soap.jpg', 
+	imagePath: 'assets/img/product/love/ingezo-yetimanga.jpg', 
 	category:'Relations',
-	title: 'Lucky Soup',
+	title: 'Ingezo Yetimanga',
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:100,
+	price:45,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
