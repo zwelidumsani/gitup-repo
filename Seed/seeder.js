@@ -54,7 +54,7 @@ new Product({
 	imagePath: 'assets/img/product/mbizimvelo.jpg',
 	category:'Treatment',
 	title: 'Mbizimvelo',
-	solution: 'Lower back pain, Bladder, Kidney, Sexual Stamina',
+	solution: 'Lower back pain, Bladder, Kidney, Sexual Stamina, Pregnancy problems',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Back Pain, Bladder, Kidney Failure, Sexual Stamina, Stomach, Constipation',
 	price:100,
