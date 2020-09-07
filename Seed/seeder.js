@@ -21,7 +21,7 @@ new Product({
 	solution: 'Rapid Bone Repair, Gout, Piles, Immune System Booster, Post Operations, Internal Bleeding, Ulcers, Intestine Disorders, Body Cleanser, Boosts Sexual Performance, Bleeding Gums, Body Sores, Helps Digestion Process, & Treats Cancer',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Internal Bleeding, Intestine Disorders, Ulcers, Cancer, Gums',
-	price:200,
+	price:100,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -33,7 +33,7 @@ new Product({
     solution: 'Immune System Booster, Hiccups, Diarrhea, Appetite, Spasmodic Pains, Swollen Feet, Blisters, Glands on neck, Oral Thrush, Body Pain, Headache, Ulcers.',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Blisters',
-	price:200,
+	price:140,
 	volume:'1 Litre',
 	instructions:'Drink half a glass there(3) timees per day.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -45,7 +45,7 @@ new Product({
 	solution: 'Drop, Body Sores, Piles, Prostrate Cancer, Blood Cleanser, Pneumonia, Chest Pain, Pimples, Iching, Thrush, CD4-Count Booster',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count',
-	price:200,
+	price:180,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -57,7 +57,7 @@ new Product({
 	solution: 'Lower back pain, Bladder, Kidney, Sexual Stamina, Pregnancy problems',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Back Pain, Bladder, Kidney Failure, Sexual Stamina, Stomach, Constipation',
-	price:200,
+	price:120,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -71,7 +71,7 @@ new Product({
 	solution: 'Painful Feet, Oversweating, Kidney Failure, Digestion, Suger Diabetes, Dieting, Fatigue, Insomnia, High Blood Pressure, Carbohydrates Regulation',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Painful Feet, Sweating, Suger Diabetes, High Blood Pressure etc',
-	price:200,
+	price:140,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -83,7 +83,7 @@ new Product({
 	solution: 'TB, Body Sores, Piles, Cancer, Drop, Blisters, Stomach Pains, Blood Cleanser',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'TB(Tubercolosis), Piles, Cancer, Body Sores, Sking Blisters, Stomach Pains', 
-	price:200,
+	price:120,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
