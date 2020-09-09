@@ -98,7 +98,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:70,
+	price:60,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -140,7 +140,7 @@ new Product({
 	description: 'A special mixture of powerful herbs[Siwasho]',
 	solution: 'successful churches, respect, peace, & love',
 	summary: 'A mixture for luck, successful churches, love and respect', 
-	price:70,
+	price:50,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Chela',
 	testimonials: 'Testimonials are still being prepared.'
@@ -168,7 +168,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:50,
+	price:45,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -183,7 +183,7 @@ new Product({
     description: 'A very special mixture of powerful herbs [Siwasho]',
 	solution: 'Marriage',
 	summary: 'A mixture for marriage', 
-	price:70,
+	price:65,
 	volume:'150g',
 	instructions:'Futsa',
 	testimonials: 'Testimonials are still being prepared.'
@@ -197,7 +197,7 @@ new Product({
 	description: 'A very delicate and special mixture of herbs & mineral saults',
 	solution:'Luck, Love, Gambling.',
 	summary: 'A mixture for luck, love and gambling', 
-	price :70,
+	price :50,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -211,7 +211,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:70,
+	price:50,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
