@@ -130,7 +130,7 @@ h3.block-title {
 	====================================================*/
 
 .resposiveCheckoutButton{
-	display:none;
+	display:block;
 }	
 
 .borderWrap{

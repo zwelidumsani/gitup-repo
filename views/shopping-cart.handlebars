@@ -90,7 +90,6 @@
 									</td>	
 									
 									<td class="action" data-title="Action" style = "vertical-align: middle;">
-									 <a class="btn btn-common-checkout center-block pull-right" href="/checkout">Checkout <i class = "lnr lnr-arrow-right"></i></a>
 									 </td>
 								<tr>
 								
@@ -101,7 +100,6 @@
 							<td class="product-thumb" style = "vertical-align: middle;">
 										<h1 class = "text-align: left"><span style="color: #3498DB; font-weight: 550;">No Items In Cart</span></h1>
 										<br><br><br><br><br><br>
-										<a class="btn btn-common-checkout center-block pull-left" href="/"><i class = "lnr lnr-home"></i> Go Back Home</a>
 										
 							</td>
 									 <td style = "vertical-align: middle;">
@@ -116,16 +114,22 @@
 							</tbody>
 							
 						</table>
-		                <div class = resposiveCheckoutButton>
-						 <a class="btn btn-common-checkout center-block" href="/checkout">Checkout <i class = "lnr lnr-arrow-right"></i></a>
-						</div>			
+						{{#if products}}
+							<div class = resposiveCheckoutButton>
+							 <a class="btn btn-common-checkout center-block" href="/checkout">Checkout <i class = "lnr lnr-arrow-right"></i></a>
+							</div>	
+                		{{else}}
+						<div class = resposiveCheckoutButton>
+							 <a class="btn btn-common-checkout center-block" href="/"><i class = "lnr lnr-home"></i> Go back Home</a>
+							</div>
+                         {{/if}}						
 							
 				  </div>
 			
 		
 		</div>
 	</div>
-	</div>	 
+	</div>	
 	</div> 
 	
 	<ul id = "myTab" class = "nav nav-tabs navigation">

@@ -40,7 +40,7 @@ $(window).load(function() {
    New Products Owl Carousel
    ========================================================================== */
   $("#new-products").owlCarousel({
-      navigation: true,
+      navigation: false,
       pagination: true,
       slideSpeed: 1000,
       stopOnHover: true,
