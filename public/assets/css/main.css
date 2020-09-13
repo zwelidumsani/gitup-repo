@@ -128,13 +128,15 @@ h3.block-title {
 /*====================================================
 		bootstrap default style overriding
 	====================================================*/
+	
+	
 
 .resposiveCheckoutButton{
 	display:block;
 }	
 
 .borderWrap{
-	border:1px solid grey;
+	border:1px solid transparent;
 	border-radius:5px;
 }
 
@@ -668,7 +670,6 @@ nav#menu span.fa.fa-bars:hover {
 .main-navigation .navbar-nav > li.postadd {
   padding-left: 25px;
   margin-left: 5px;
-  border-left: 1px solid #ddd;
 }
 .main-navigation .navbar-nav > li.postadd a {
   box-sizing: border-box;
