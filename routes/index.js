@@ -259,10 +259,10 @@ router.get('/wealth', function(req, res, next){
 });
 
 
-router.get('/all-products', function(req, res, next){
-	 req.session.listingUrl = '/all-products';
+router.get('/stock', function(req, res, next){
+	 req.session.listingUrl = '/stock';
 	 Product.find(function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "AVAILABLE STOCK",products: docs});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "AVAILABLE STOCK", products: docs});
 	 });
 });
 
