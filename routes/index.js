@@ -259,13 +259,6 @@ router.get('/wealth', function(req, res, next){
 });
 
 
-router.get('/all-products', function(req, res, next){
-	 req.session.listingUrl = '/all-products';
-	 Product.find(function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "AVAILABLE STOCK",products: docs});
-	 });
-});
-
 router.get('/product-d/:id', (req, res) => {
     proId = req.params.id;
      res.redirect('/product-details');	
@@ -427,7 +420,6 @@ router.post('/signin',passport.authenticate('local', {
 	
 
 router.get('/about', function(req, res){
-	
 		res.render('aboutUs.handlebars');
 });
 
