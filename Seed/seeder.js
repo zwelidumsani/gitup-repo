@@ -168,7 +168,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:45,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -212,6 +212,71 @@ new Product({
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
 	price:50,
+	volume:'150g',
+	instructions:'Futsa, Geza, Gaba',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/love/small-wozawoza.jpg', 
+	category:'Relations',
+	title: 'Woza Woza',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Marriage, Respect, More lovers',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:45,
+	volume:'100g',
+	instructions:'Futsa, Geza, Gaba',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/extras/sihlati-semloti.jpg', 
+	category:'Extras',
+	title: 'Sihlati Semloti',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Private',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:100,
+	volume:'150g',
+	instructions:'Futsa, Geza, Gaba',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/extras/sihlati-semadloti.jpg', 
+	category:'Extras',
+	title: 'Sihlati Semadloti',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Private',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:75,
+	volume:'150g',
+	instructions:'Futsa, Geza, Gaba',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/extras/siwasho-senzunzu.jpg', 
+	category:'Extras',
+	title: 'Siwasho Senzunzu',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Private',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:100,
+	volume:'150g',
+	instructions:'Futsa, Geza, Gaba',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/extras/sigila-batsakatsi.jpg', 
+	category:'Extras',
+	title: 'Sigila Batsakatsi',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Private',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:75,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
