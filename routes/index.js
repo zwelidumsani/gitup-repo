@@ -253,7 +253,7 @@ router.get('/relations', function(req, res, next){
 	 req.session.listingUrl = '/relations';
 	 Product.find({category: 'Relations'}, function(err, docs){
 	 var affection;	 
-		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE & RELATIONS",products: docs, affection:affection, affection:!affection,
+		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE & ATTRACTION",products: docs, affection:affection, affection:!affection,
 		 loveAffectionStatus: "active"});
 	 });
 });
