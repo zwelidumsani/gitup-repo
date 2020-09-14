@@ -231,6 +231,19 @@ new Product({
 }),
 
 new Product({
+	imagePath: 'assets/img/product/love/lesibovu.jpg', 
+	category:'Relations',
+	title: 'Siwasho Lesibovu',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Badluck, Sicitfo, Evil-spells,',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:45,
+	volume:'100g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
 	imagePath: 'assets/img/product/extras/sihlati-semloti.jpg', 
 	category:'Extras',
 	title: 'Sihlati Semloti',
