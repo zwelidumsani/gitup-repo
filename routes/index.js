@@ -234,6 +234,13 @@ router.get('/close-order/:id', isLoggedIn, function(req, res, next){
 	 });
 });
 
+router.get('/stock', function(req, res, next){
+	 req.session.listingUrl = '/stock';
+	 Product.find(function(err, docs){
+		 return res.render('listing', {title: 'Shopping Cart',headin: "AVAILABLE STOCK", products: docs});
+	 });
+});
+
 router.get('/treatment', function(req, res, next){
 	 req.session.listingUrl = '/treatment';
 	 Product.find({category: 'Treatment'}, function(err, docs){
@@ -258,13 +265,6 @@ router.get('/wealth', function(req, res, next){
 	 });
 });
 
-
-router.get('/stock', function(req, res, next){
-	 req.session.listingUrl = '/stock';
-	 Product.find(function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "AVAILABLE STOCK", products: docs});
-	 });
-});
 
 router.get('/product-d/:id', (req, res) => {
     proId = req.params.id;
