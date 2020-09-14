@@ -162,6 +162,20 @@ new Product({
 }),
 
 new Product({
+	imagePath: 'assets/img/product/wealth/owemsebensi.jpg',
+	category:'Wealth',
+	title: 'Owemsebenzi',
+	description: 'A very special mixture [Siwasho] of essential powers & herbs',
+	solution: 'luck, Job-finder,Deals',
+	summary: 'Siwasho', 
+	price:75,
+	volume:'150g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
+new Product({
 	imagePath: 'assets/img/product/wealth/money-drawing.jpg',
 	category:'Wealth',
 	title: 'Money Drawer',
@@ -227,7 +241,7 @@ new Product({
 	price:45,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
-	testimonials: 'Testimonials are still being prepared.'	
+	testimonials: 'Testimonials are still being prepared.'	 
 }),
 
 new Product({
@@ -237,7 +251,20 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Badluck, Sicitfo, Evil-spells,',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:45,
+	price:75,
+	volume:'100g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/love/selutsandvo.jpg', 
+	category:'Relations',
+	title: 'Selutsandvo',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Love, Attraction, Marriage, Respect',
+	summary: 'A mixture for having more lovers, respect and marriage', 
+	price:75,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -292,7 +319,7 @@ new Product({
 	price:75,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
-	testimonials: 'Testimonials are still being prepared.'	
+	testimonials: 'Testimonials are still being prepared.'	  
 })
 
 ]
