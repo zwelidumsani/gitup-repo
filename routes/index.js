@@ -196,6 +196,7 @@ router.post('/order',isLoggedIn, function(req, res, next){
 	
 router.get('/remove-order/:id',isLoggedIn, function(req, res, next){
 	var orderId = req.params.id;
+	console.log(orderId);
 	Order.findById(orderId, function(err, order){
 		if(err){
 			console.log("Could not find Order", err.message);
