@@ -76,6 +76,7 @@ new Product({
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
+
 new Product({
 	imagePath: 'assets/img/product/lijojo.jpg',
 	category:'Treatment', 
@@ -265,8 +266,8 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Badluck, Sicitfo, Evil-spells,',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:90,
-	volume:'100g',
+		price:90,
+volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
 }),
@@ -279,6 +280,19 @@ new Product({
 	solution:'Love, Attraction, Marriage, Respect',
 	summary: 'A mixture for having more lovers, respect and marriage', 
 	price:90,
+	volume:'100g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/love/bhekamina.jpg', 
+	category:'Relations',
+	title: 'Bheka Mina',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Love, Attraction, dedication',
+	summary: 'A mixture for achieving true love', 
+	price:70,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
