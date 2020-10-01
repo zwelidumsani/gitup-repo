@@ -204,6 +204,20 @@ new Product({
 	
 }),
 
+new Product({
+	imagePath: 'assets/img/product/wealth/nozimanga.jpg',
+	category:'Wealth',
+	title: 'Nozimanga',
+	description: 'A very special mixture of essential powers, saults, & herbs',
+	solution: 'Luck, Success, Job, Marriage,Gambling, Respect, Money, Aristocracy, Love',
+	summary: 'A mixture for luck, business success and successful gambling', 
+	price:70,
+	volume:'150g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
 
 new Product({
 	imagePath: 'assets/img/product/love/esemshado.jpg',
@@ -218,6 +232,7 @@ new Product({
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
+
 
 new Product({
 	imagePath: 'assets/img/product/love/wozawoza.jpg',
@@ -296,6 +311,20 @@ new Product({
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/love/nkosazana.jpg',
+	category:'Relations',
+	title: 'Inkosazana',
+    description: 'A very special & delicate oil mixture of natural sautls',
+	solution: 'Luck, Beauty, Marriage, Love',
+	summary: 'A mixture for marriage', 
+	price:90,
+	volume:'150g',
+	instructions:'Apply on hands, Hair, and body',
+	testimonials: 'Testimonials are still being prepared.'
+	
 }),
 
 new Product({
