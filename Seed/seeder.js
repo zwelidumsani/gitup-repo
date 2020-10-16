@@ -76,6 +76,7 @@ new Product({
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
+
 new Product({
 	imagePath: 'assets/img/product/lijojo.jpg',
 	category:'Treatment', 
@@ -203,6 +204,20 @@ new Product({
 	
 }),
 
+new Product({
+	imagePath: 'assets/img/product/wealth/nozimanga.jpg',
+	category:'Wealth',
+	title: 'Nozimanga',
+	description: 'A very special mixture of essential powers, saults, & herbs',
+	solution: 'Luck, Success, Job, Marriage,Gambling, Respect, Money, Aristocracy, Love',
+	summary: 'A mixture for luck, business success and successful gambling', 
+	price:70,
+	volume:'150g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
 
 new Product({
 	imagePath: 'assets/img/product/love/esemshado.jpg',
@@ -217,6 +232,7 @@ new Product({
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
+
 
 new Product({
 	imagePath: 'assets/img/product/love/wozawoza.jpg',
@@ -265,8 +281,8 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Badluck, Sicitfo, Evil-spells,',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:90,
-	volume:'100g',
+		price:90,
+volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
 }),
@@ -282,6 +298,33 @@ new Product({
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/love/bhekamina.jpg', 
+	category:'Relations',
+	title: 'Bheka Mina',
+	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	solution:'Love, Attraction, dedication',
+	summary: 'A mixture for achieving true love', 
+	price:70,
+	volume:'100g',
+	instructions:'Futsa, Geza, Phalaza',
+	testimonials: 'Testimonials are still being prepared.'	
+}),
+
+new Product({
+	imagePath: 'assets/img/product/love/nkosazana.jpg',
+	category:'Relations',
+	title: 'Inkosazana',
+    description: 'A very special & delicate oil mixture of natural sautls',
+	solution: 'Luck, Beauty, Marriage, Love',
+	summary: 'A mixture for marriage', 
+	price:90,
+	volume:'150g',
+	instructions:'Apply on hands, Hair, and body',
+	testimonials: 'Testimonials are still being prepared.'
+	
 }),
 
 new Product({
