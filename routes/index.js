@@ -268,7 +268,7 @@ router.get('/wealth', function(req, res, next){
 
 
 router.get('/product-d/:id', (req, res) => {
-    proId = req.params.id;
+     proId = req.params.id;
      res.redirect('/product-details');	
 });
 
@@ -309,7 +309,7 @@ router.post('/email', function(req, res){
          from: req.body.email, // sender address
          to: 'eswatiniherbalnutrition@gmail.com', // list of receivers
          subject: 'Client Mail', // Subject line
-         html: '<p>'+req.body.message+'</p>'// plain text body
+         html: '<p>'+req.body.message+" "+req.body.email+'</p>'// plain text body
     };
 
 	transporter.sendMail(mailOptions, function (err, info) {
@@ -341,7 +341,7 @@ router.get('/add-to-cart/:id', function(req, res,){
 			req.session.cart = cart;
 			var listingUrl = req.session.listingUrl;
 			req.session.listingUrl = null;
-			return res.redirect(listingUrl);  
+			return res.redirect(listingUrl); 			
 	    });
 
 });
