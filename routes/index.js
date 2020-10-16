@@ -309,7 +309,7 @@ router.post('/email', function(req, res){
          from: req.body.email, // sender address
          to: 'eswatiniherbalnutrition@gmail.com', // list of receivers
          subject: 'Client Mail', // Subject line
-         html: '<p>'+req.body.message+" "+req.body.email+'</p>'// plain text body
+         html:'<p>'+'NAME:- '+req.body.name+'<br>'+'EMAIL:- '+req.body.email+'<br>'+'MESSAGE:- '+req.body.message+'</p>'// plain text body
     };
 
 	transporter.sendMail(mailOptions, function (err, info) {
