@@ -218,6 +218,35 @@ new Product({
 	
 }),
 
+new Product({
+	imagePath: 'assets/img/product/wealth/imphepho.jpg',
+	category:'Wealth',
+	title: 'Imphepho',
+	description: 'Money drawing incense sticks',
+	solution: 'Luck, Money',
+	summary: 'A mixture for luck, business success and successful gambling', 
+	price:50,
+	volume:'150g',
+	instructions:'Burn',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
+
+new Product({
+	imagePath: 'assets/img/product/wealth/litje.jpg',
+	category:'Wealth',
+	title: 'Litje Lebelungu',
+	description: 'A very special mixture of powerful herbs [Siwasho]',
+	solution: 'Luck, Inhlanhla',
+	summary: 'A mixture for luck, business success and successful gambling', 
+	price:100,
+	volume:'150g',
+	instructions:'Chuma, Phalaza, Chela',
+	testimonials: 'Testimonials are still being prepared'
+	
+}),
+
 
 new Product({
 	imagePath: 'assets/img/product/love/esemshado.jpg',
@@ -281,8 +310,8 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Badluck, Sicitfo, Evil-spells,',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-		price:90,
-volume:'100g',
+	price:90,
+    volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
 }),
@@ -320,7 +349,7 @@ new Product({
     description: 'A very special & delicate oil mixture of natural sautls',
 	solution: 'Luck, Beauty, Marriage, Love',
 	summary: 'A mixture for marriage', 
-	price:90,
+	price:100,
 	volume:'150g',
 	instructions:'Apply on hands, Hair, and body',
 	testimonials: 'Testimonials are still being prepared.'
