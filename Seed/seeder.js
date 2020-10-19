@@ -314,7 +314,7 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/love/nkosazana.png',
+	imagePath: 'assets/img/product/love/nkosazana.jpg',
 	category:'Relations',
 	title: 'Inkosazana',
     description: 'A very special & delicate oil mixture of natural sautls',
