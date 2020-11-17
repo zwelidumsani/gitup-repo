@@ -99,7 +99,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:60,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -141,7 +141,7 @@ new Product({
 	description: 'A special mixture of powerful herbs[Siwasho]',
 	solution: 'successful churches, respect, peace, & love',
 	summary: 'A mixture for luck, successful churches, love and respect', 
-	price:50,
+	price:60,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Chela',
 	testimonials: 'Testimonials are still being prepared.'
@@ -169,7 +169,7 @@ new Product({
 	description: 'A very special mixture [Sihlati] of essential powers & herbs',
 	solution: 'luck',
 	summary: 'Sihlati', 
-	price:120,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -211,7 +211,7 @@ new Product({
 	description: 'Money drawing incense sticks',
 	solution: 'Luck, Money',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:50,
+	price:60,
 	volume:'150g',
 	instructions:'Burn',
 	testimonials: 'Testimonials are still being prepared.'
@@ -233,6 +233,20 @@ new Product({
 	
 }),
 
+new Product({
+	imagePath: 'assets/img/product/wealth/lozimanga.png',
+	category:'Wealth',
+	title: 'Lozimanga',
+	description: 'A very special mixture of powerful herbs [Siwasho], Lesiwasho Uyasitjela wena kutsi ufuna sikwentele ini',
+	solution: 'Luck/Inhlanhla, love/lutsandvo, Happiness/Injabulo, Money/Imali, etc',
+	summary: 'A mixture for luck, business success and successful gambling', 
+	price:100,
+	volume:'150g',
+	instructions:'Futsa, Chela, Phalaza, Gquma, Phephetsa',
+	testimonials: 'Testimonials are still being prepared'
+	
+}),
+
 
 new Product({
 	imagePath: 'assets/img/product/love/esemshado.jpg',
@@ -241,7 +255,7 @@ new Product({
     description: 'A very special mixture of powerful herbs [Siwasho]',
 	solution: 'Marriage',
 	summary: 'A mixture for marriage', 
-	price:70,
+	price:80,
 	volume:'150g',
 	instructions:'Futsa',
 	testimonials: 'Testimonials are still being prepared.'
@@ -256,7 +270,7 @@ new Product({
 	description: 'A very delicate and special mixture of herbs & mineral saults',
 	solution:'Luck, Love, Gambling.',
 	summary: 'A mixture for luck, love and gambling', 
-	price :70,
+	price :80,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -270,7 +284,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:50,
+	price:60,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -283,7 +297,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:50,
+	price:60,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	 
@@ -322,7 +336,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Love, Attraction, dedication',
 	summary: 'A mixture for achieving true love', 
-	price:70,
+	price:80,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -335,7 +349,7 @@ new Product({
     description: 'A very special & delicate oil mixture of natural sautls',
 	solution: 'Luck, Beauty, Marriage, Love',
 	summary: 'A mixture for marriage', 
-	price:100,
+	price:70,
 	volume:'150g',
 	instructions:'Apply on hands, Hair, and body',
 	testimonials: 'Testimonials are still being prepared.'
@@ -356,10 +370,10 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/extras/siwasho-senzunzu.jpg', 
+	imagePatht:'assets/img/product/extras/siwasho-senzunzu.jpg', 
 	category:'Extras',
-	title: 'Siwasho Senzunzu',
-	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
+	title: 'Siwasho Senzunzu', 
+	description: 'A ver delicyate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
 	price:100,
@@ -375,7 +389,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:75,
+	price:70,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	  
