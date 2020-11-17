@@ -205,21 +205,6 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/wealth/imphepho.jpg',
-	category:'Wealth',
-	title: 'Imphepho',
-	description: 'Money drawing incense sticks',
-	solution: 'Luck, Money',
-	summary: 'A mixture for luck, business success and successful gambling', 
-	price:60,
-	volume:'150g',
-	instructions:'Burn',
-	testimonials: 'Testimonials are still being prepared.'
-	
-}),
-
-
-new Product({
 	imagePath: 'assets/img/product/wealth/nomphumelelo.jpg',
 	category:'Wealth',
 	title: 'Nomphumelelo',
