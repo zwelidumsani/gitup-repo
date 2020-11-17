@@ -219,13 +219,13 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/wealth/lozimanga.png',
+	imagePath: 'assets/img/product/wealth/Lozimanga.jpg',
 	category:'Wealth',
 	title: 'Lozimanga',
 	description: 'A very special mixture of powerful herbs [Siwasho], Lesiwasho Uyasitjela wena kutsi ufuna sikwentele ini',
 	solution: 'Luck/Inhlanhla, love/lutsandvo, Happiness/Injabulo, Money/Imali, etc',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:100,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Chela, Phalaza, Gquma, Phephetsa',
 	testimonials: 'Testimonials are still being prepared'
