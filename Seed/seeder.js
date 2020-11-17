@@ -224,11 +224,11 @@ new Product({
 	category:'Wealth',
 	title: 'Nomphumelelo',
 	description: 'A very special mixture of powerful herbs [Siwasho], Usebentisa lesiwasho usikhulumise utfola konkhe lokufunako',
-	solution: 'Clients, Peace, Finacial boost, drive away bad spirits, accademic success, body relaxation, materialistic growth',
+	solution: 'Clients, Peace, Finacial Boost, Materialistic Growth, Academic Success, Drives Away Bad Spirits, Body Relaxation',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:100,
+	price:90,
 	volume:'150g',
-	instructions:'Chuma, Phalaza, Chela',
+	instructions:'Futsa, Geza, Phalaza, Natsa',
 	testimonials: 'Testimonials are still being prepared'
 	
 }),
