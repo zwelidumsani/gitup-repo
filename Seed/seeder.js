@@ -33,7 +33,7 @@ new Product({
     solution: 'Immune System Booster, Hiccups, Diarrhea, Appetite, Spasmodic Pains, Swollen Feet, Blisters, Glands on neck, Oral Thrush, Body Pain, Headache, Ulcers.',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Blisters',
-	price:140,
+	price:190,
 	volume:'1 Litre',
 	instructions:'Drink half a glass there(3) timees per day.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -45,7 +45,7 @@ new Product({
 	solution: 'Drop, Body Sores, Piles, Prostrate Cancer, Blood Cleanser, Pneumonia, Chest Pain, Pimples, Iching, Thrush, CD4-Count Booster',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count',
-	price:180,
+	price:160,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -57,7 +57,7 @@ new Product({
 	solution: 'Lower back pain, Bladder, Kidney, Sexual Stamina, Pregnancy problems',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
 	summary: 'Back Pain, Bladder, Kidney Failure, Sexual Stamina, Stomach, Constipation',
-	price:120,
+	price:190,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -282,7 +282,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:60,
+	price:80,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	 
