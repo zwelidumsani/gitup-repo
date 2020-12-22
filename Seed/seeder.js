@@ -341,6 +341,21 @@ new Product({
 	
 }),
 
+
+new Product({
+	imagePath: 'assets/img/product/love/mnandimama.jpg',
+	category:'Relations',
+	title: 'Mnandimama',
+    description: 'A very special & delicate mixture of natural herbs',
+	solution: 'Marriage, Love',
+	summary: 'A mixture for marriage', 
+	price:150,
+	volume:'150g',
+	instructions:'Apply on hands, Hair, and body',
+	testimonials: 'Testimonials are still being prepared.'
+	
+}),
+
 new Product({
 	imagePath: 'assets/img/product/extras/sihlati-semadloti.jpg', 
 	category:'Extras',
