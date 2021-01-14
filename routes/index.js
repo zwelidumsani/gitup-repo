@@ -1,4 +1,5 @@
 var nodemailer = require('nodemailer');
+const path = require('path');
 const express = require('express')
 const router = express.Router()
 var Cart = require('../models/cart.js');
@@ -194,7 +195,7 @@ router.post('/order',isLoggedIn, function(req, res, next){
 });
 	
 	
-router.get('/remove-order/:id',isLoggedIn, function(req, res, next){
+router.get('/remove-order/:id', isLoggedIn, function(req, res, next){
 	var orderId = req.params.id;
 	console.log(orderId);
 	Order.findById(orderId, function(err, order){
@@ -246,7 +247,7 @@ router.get('/treatment', function(req, res, next){
 	 req.session.listingUrl = '/treatment';
 	 Product.find({category: 'Treatment'}, function(err, docs){
 		 return res.render('listing', {title: 'Shopping Cart',headin: "HERBAL NUTRITION",products: docs, 
-		 herbalNutritionStatus: "active"});
+		 herbalNutritionStatus: "active", downloadRoute: "view-timbita", download: "VIEW & DOWNLOAD CATALOGUE"});
 	 });
 });
 
@@ -255,20 +256,21 @@ router.get('/relations', function(req, res, next){
 	 Product.find({category: 'Relations'}, function(err, docs){
 	 var affection;	 
 		 return res.render('listing', {title: 'Shopping Cart',headin: "LOVE & ATTRACTION",products: docs, affection:affection, affection:!affection,
-		 loveAffectionStatus: "active"});
+		 loveAffectionStatus: "active", downloadRoute: "view-relations", download: "VIEW & DOWNLOAD CATALOGUE"});
 	 });
 });
 
 router.get('/wealth', function(req, res, next){
 	 req.session.listingUrl = '/wealth';
 	 Product.find({category: 'Wealth'}, function(err, docs){
-		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH & SUCCESS",products: docs, wealthSuccessStatus:"active"});
+		 return res.render('listing', {title: 'Shopping Cart',headin: "WEALTH & SUCCESS",products: docs, wealthSuccessStatus:"active",
+		 downloadRoute: "view-wealth", download: "VIEW & DOWNLOAD CATALOGUE"});
 	 });
 });
 
 
 router.get('/product-d/:id', (req, res) => {
-     proId = req.params.id;
+    proId = req.params.id;
      res.redirect('/product-details');	
 });
 
@@ -309,7 +311,7 @@ router.post('/email', function(req, res){
          from: req.body.email, // sender address
          to: 'eswatiniherbalnutrition@gmail.com', // list of receivers
          subject: 'Client Mail', // Subject line
-         html:'<p>'+'NAME:- '+req.body.name+'<br>'+'EMAIL:- '+req.body.email+'<br>'+'MESSAGE:- '+req.body.message+'</p>'// plain text body
+         html: '<p>'+req.body.message+'</p>'// plain text body
     };
 
 	transporter.sendMail(mailOptions, function (err, info) {
@@ -341,7 +343,7 @@ router.get('/add-to-cart/:id', function(req, res,){
 			req.session.cart = cart;
 			var listingUrl = req.session.listingUrl;
 			req.session.listingUrl = null;
-			return res.redirect(listingUrl); 			
+			return res.redirect(listingUrl);  
 	    });
 
 });
