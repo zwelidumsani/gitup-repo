@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 //mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority
 //mongodb://localhost/shopping
 
-
 try {
 	const uri = 'mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority';	
 	mongoose.connect( uri, {useNewUrlParser: true, useUnifiedTopology: true}, () =>
@@ -14,6 +13,18 @@ try {
 	}
      
 	 var products = [
+new Product({
+	imagePath:'assets/img/product/cure.png',
+	category:'Treatment',
+	title: 'Global Cure Organic Remedy',
+	solution: 'Excessive Fatigue, Fever, Piles, Shortness Of Breath, Dry Cough, Sore Throat, Ulcers, Intestine Disorders, Body Cleanser, Boosts Sexual Performance, Body Aches, Body Sores, Pneumonia, Asthma, Head Congestion, Muscle Pains, & Cancer',
+	description: 'A very special mixture from the Kingdom Of Lesotho containing powerful and proven healing properties to cure/treat sicknesses',
+	summary: 'Internal Bleeding, Intestine Disorders, Ulcers, Cancer, Gums',
+	price:150,
+	volume:'500 ml',
+	instructions:'Drink 1/2 Cup, Three(3)times per day. Morning, afternoon, and evening.',
+	testimonials: 'Testimonials are still being prepared.'
+}),
 new Product({
 	imagePath:'assets/img/product/umhlabelo.jpg',
 	category:'Treatment',
