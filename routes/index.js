@@ -303,7 +303,7 @@ router.post('/email', function(req, res){
 	 service: 'Gmail',
 	    auth: {
 		     user: 'eswatiniherbalnutrition@gmail.com',
-		     pass: 'FANAdumsani@1989367'
+		     pass: 'FANAdumsani@1989'
 		}
 	});
 	
