@@ -299,7 +299,6 @@ router.get('/contact', function(req, res){
 router.post('/email', function(req, res){
 	
 	var transporter = nodemailer.createTransport({
-		
 	 service: 'Gmail',
 	    auth: {
 		     user: 'eswatiniherbalnutrition@gmail.com',
@@ -315,6 +314,7 @@ router.post('/email', function(req, res){
     };
 
 	transporter.sendMail(mailOptions, function (err, info) {
+		
 		if(err){ 
 		     console.log("Error sending email", err.message);
 		     req.flash("email_error", "Something went wrong");	
