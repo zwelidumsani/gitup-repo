@@ -14,7 +14,7 @@ try {
      
 	 var products = [
 new Product({
-	imagePath:'assets/img/product/cure.png',
+	imagePath:'assets/img/product/cure.jpg',
 	category:'Treatment',
 	title: 'Global Cure Organic Remedy',
 	solution: 'Excessive Fatigue, Fever, Piles, Shortness Of Breath, Dry Cough, Sore Throat, Ulcers, Intestine Disorders, Body Cleanser, Boosts Sexual Performance, Body Aches, Body Sores, Pneumonia, Asthma, Head Congestion, Muscle Pains, & Cancer',
@@ -110,7 +110,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:90,
+	price:150,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -124,7 +124,7 @@ new Product({
 	description: 'A very special mixture of essential oils & herbs',
 	solution: 'Luck, Business Success, Gambling Success, Money Attraction',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:90,
+	price:150,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'
@@ -138,7 +138,7 @@ new Product({
 	description: 'A special mixture of powerful herbs',
 	solution: 'Luck, Business Success, Gambling Success, Money Attraction',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:90,
+	price:150,
 	volume:'100g',
 	instructions:'Bath[Geza]',
 	testimonials: 'Testimonials are still being prepared.'
@@ -152,7 +152,7 @@ new Product({
 	description: 'A special mixture of powerful herbs[Siwasho]',
 	solution: 'successful churches, respect, peace, & love',
 	summary: 'A mixture for luck, successful churches, love and respect', 
-	price:60,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Chela',
 	testimonials: 'Testimonials are still being prepared.'
@@ -208,7 +208,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:90,
+	price:150,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -222,7 +222,7 @@ new Product({
 	description: 'A very special mixture of powerful herbs [Siwasho], Usebentisa lesiwasho usikhulumise utfola konkhe lokufunako',
 	solution: 'Clients, Peace, Finacial Boost, Materialistic Growth, Academic Success, Drives Away Bad Spirits, Body Relaxation',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:90,
+	price:130,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Natsa',
 	testimonials: 'Testimonials are still being prepared'
@@ -236,7 +236,7 @@ new Product({
 	description: 'A very special mixture of powerful herbs [Siwasho], Lesiwasho Uyasitjela wena kutsi ufuna sikwentele ini',
 	solution: 'Luck/Inhlanhla, love/lutsandvo, Happiness/Injabulo, Money/Imali, etc',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:90,
+	price:130,
 	volume:'150g',
 	instructions:'Futsa, Chela, Phalaza, Gquma, Phephetsa',
 	testimonials: 'Testimonials are still being prepared'
@@ -251,7 +251,7 @@ new Product({
     description: 'A very special mixture of powerful herbs [Siwasho]',
 	solution: 'Marriage',
 	summary: 'A mixture for marriage', 
-	price:80,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa',
 	testimonials: 'Testimonials are still being prepared.'
@@ -266,7 +266,7 @@ new Product({
 	description: 'A very delicate and special mixture of herbs & mineral saults',
 	solution:'Luck, Love, Gambling.',
 	summary: 'A mixture for luck, love and gambling', 
-	price :80,
+	price :150,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -280,7 +280,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:60,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -293,7 +293,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:80,
+	price:150,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	 
@@ -319,7 +319,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Love, Attraction, Marriage, Respect',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:90,
+	price:150,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -332,7 +332,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Love, Attraction, dedication',
 	summary: 'A mixture for achieving true love', 
-	price:80,
+	price:130,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -374,7 +374,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:75,
+	price:120,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -400,7 +400,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:70,
+	price:120,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	  
