@@ -52,6 +52,11 @@ div img{
 	border-radius:5px;
 }
 
+.devider {
+	margin-bottom: 50px;
+}
+
+
 
 a {
   color: #444;
@@ -812,7 +817,7 @@ nav#menu span.fa.fa-bars:hover {
 .service-item h4 {
 	font-size: 17px;
 	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: 0;
 	letter-spacing: 0.5px;
 	margin-top: 0px;
 	margin-bottom: 15px;
@@ -1871,6 +1876,8 @@ footer .menu li a:hover {
   padding: 20px 0px;
   text-transform: uppercase;
   font-weight: 400;
+  text-align:center; 
+  margin-bottom: 18px;
 }
 #pricing-table {
   background: #ffffff;

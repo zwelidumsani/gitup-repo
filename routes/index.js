@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
 		 
 		 res.render('index', {products: productsArray, accRemoval: accRemoval});
 	});		
-})
+});
 
 
 
@@ -298,17 +298,18 @@ router.get('/contact', function(req, res){
 
 router.post('/email', function(req, res){
 	
-	var transporter = nodemailer.createTransport({
-	 service: 'Gmail',
-	    auth: {
-		     user: 'eswatiniherbalnutrition@gmail.com',
-		     pass: 'FANAdumsani@1989'
-		}
-	});
+var transporter = nodemailer.createTransport({
+    host: 'mail.icon.co.sz',
+    secure: true, // true for 465, false for other ports
+    auth: {
+      user: 'eswatiniherbalsolutions@icon.co.sz', // your domain email address
+      pass: 'Yd@tX?u=;Evn' // your password
+    }
+  });
 	
     const mailOptions = {
          from: req.body.email, // sender address
-         to: 'eswatiniherbalnutrition@gmail.com', // list of receivers
+         to: 'eswatiniherbalsolutions@icon.co.sz', // list of receivers
          subject: 'Client Mail', // Subject line
          html: '<p>'+req.body.message+'</p>'// plain text body
     };

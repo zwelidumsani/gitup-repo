@@ -18,15 +18,10 @@
 		  
           <!-- brand and toggle menu for mobile End -->
 		  
-	
-
-
           <!-- Navbar Start -->
 		  <form action = "/logout" method = "post">
           <div class="collapse navbar-collapse" id="navbar">
-		   
-		   
-		   
+		  
             <ul class="nav navbar-nav navbar-right borderWrap">
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/"><i class = "lnr lnr-home"></i> Home</a></span></li>	
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></span></li>
@@ -42,17 +37,17 @@
 			  <li class = "dropdown" style = "font-weight:600;">
 			    <a href = "/dashboard" class = "dropdown-toggle" data-toggle = "dropdown">
 			     <i class = "lnr lnr-user"></i>User Account
-				<b class="caret"></b>
+				 <b class="caret"></b>
 				</a>
+				
 				<ul class = "dropdown-menu">
 				     {{#if login}}
-					 <li><a href="/logout"><i class="lnr lnr-enter"></i> Logout</a></li>
+					<li><a href="/logout"><i class="lnr lnr-enter"></i> Logout</a></li>
 					<li><a type = "submit" href="/dashboard"><i class="lnr lnr-user"></i>User Profile</a></li>
 					 {{else}}
 					 	 <li><a href="/signin"><i class="lnr lnr-enter"></i> Login</a></li>
 					<li><a type = "submit" href="signup"><i class="lnr lnr-pencil"></i> Create Account</a></li>
 					 {{/if}}
-				    
 				</ul>
 				
 				<li class="postadd">
@@ -60,7 +55,6 @@
  			    </li>
 				</div>
             </ul>
-          
           <!-- Navbar End -->
         </div>
 		</form>

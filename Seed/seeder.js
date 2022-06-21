@@ -1,8 +1,7 @@
 var Product = require('../models/product');
 var mongoose = require('mongoose');
 
-//mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority
-//mongodb://localhost/shopping
+//mongodb://localhost:27017/shopping
 
 try {
 	const uri = 'mongodb+srv://dumsani:aCCysqyflJmPlG29@cluster0.jruhp.mongodb.net/mongoDB?retryWrites=true&w=majority';	
@@ -30,9 +29,9 @@ new Product({
 	category:'Treatment',
 	title: 'Umhlabelo',
 	solution: 'Rapid Bone Repair, Gout, Piles, Immune System Booster, Post Operations, Internal Bleeding, Ulcers, Intestine Disorders, Body Cleanser, Boosts Sexual Performance, Bleeding Gums, Body Sores, Helps Digestion Process, & Treats Cancer',
-	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
+	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Internal Bleeding, Intestine Disorders, Ulcers, Cancer, Gums',
-	price:100,
+	price:70,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -42,7 +41,7 @@ new Product({
 	category:'Treatment',
 	title: 'Guleni',
     solution: 'Immune System Booster, Hiccups, Diarrhea, Appetite, Spasmodic Pains, Swollen Feet, Blisters, Glands on neck, Oral Thrush, Body Pain, Headache, Ulcers.',
-	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
+	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Blisters',
 	price:190,
 	volume:'1 Litre',
@@ -54,9 +53,9 @@ new Product({
 	category:'Treatment',
 	title: 'Vuka Utimele',
 	solution: 'Drop, Body Sores, Piles, Prostrate Cancer, Blood Cleanser, Pneumonia, Chest Pain, Pimples, Iching, Thrush, CD4-Count Booster',
-	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
+	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count',
-	price:160,
+	price:130,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -66,9 +65,9 @@ new Product({
 	category:'Treatment',
 	title: 'Mbizimvelo',
 	solution: 'Lower back pain, Bladder, Kidney, Sexual Stamina, Pregnancy problems',
-	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
+	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Back Pain, Bladder, Kidney Failure, Sexual Stamina, Stomach, Constipation',
-	price:190,
+	price:145,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -80,9 +79,9 @@ new Product({
 	category:'Treatment',
 	title: 'Khokha ngaphakathi',
 	solution: 'Painful Feet, Oversweating, Kidney Failure, Digestion, Suger Diabetes, Dieting, Fatigue, Insomnia, High Blood Pressure, Carbohydrates Regulation',
-	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
+	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Painful Feet, Sweating, Suger Diabetes, High Blood Pressure etc',
-	price:140,
+	price:120,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -93,9 +92,9 @@ new Product({
 	category:'Treatment', 
 	title: 'Lijojo lemphilo',
 	solution: 'TB, Body Sores, Piles, Cancer, Drop, Blisters, Stomach Pains, Blood Cleanser',
-	description: 'A very special mixture of herbs containing healing properties to cure or treat sickenesses',
+	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'TB(Tubercolosis), Piles, Cancer, Body Sores, Sking Blisters, Stomach Pains', 
-	price:120,
+	price:110,
 	volume:'1 Litre',
 	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
@@ -110,7 +109,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:150,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -124,7 +123,7 @@ new Product({
 	description: 'A very special mixture of essential oils & herbs',
 	solution: 'Luck, Business Success, Gambling Success, Money Attraction',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:150,
+	price:90,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'
@@ -138,7 +137,7 @@ new Product({
 	description: 'A special mixture of powerful herbs',
 	solution: 'Luck, Business Success, Gambling Success, Money Attraction',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:150,
+	price:90,
 	volume:'100g',
 	instructions:'Bath[Geza]',
 	testimonials: 'Testimonials are still being prepared.'
@@ -152,7 +151,7 @@ new Product({
 	description: 'A special mixture of powerful herbs[Siwasho]',
 	solution: 'successful churches, respect, peace, & love',
 	summary: 'A mixture for luck, successful churches, love and respect', 
-	price:90,
+	price:60,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Chela',
 	testimonials: 'Testimonials are still being prepared.'
@@ -166,7 +165,7 @@ new Product({
 	description: 'A very special mixture [Sihlati] of essential powers & herbs',
 	solution: 'Mostly used by traditional healers',
 	summary: 'Sihlati', 
-	price:120,
+	price:200,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -208,7 +207,7 @@ new Product({
 	description: 'A very special mixture [Siwasho] of essential powers & herbs',
 	solution: 'Luck, Business Success, Gambling Success',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:150,
+	price:90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -222,7 +221,7 @@ new Product({
 	description: 'A very special mixture of powerful herbs [Siwasho], Usebentisa lesiwasho usikhulumise utfola konkhe lokufunako',
 	solution: 'Clients, Peace, Finacial Boost, Materialistic Growth, Academic Success, Drives Away Bad Spirits, Body Relaxation',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:130,
+	price:100,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Natsa',
 	testimonials: 'Testimonials are still being prepared'
@@ -236,7 +235,7 @@ new Product({
 	description: 'A very special mixture of powerful herbs [Siwasho], Lesiwasho Uyasitjela wena kutsi ufuna sikwentele ini',
 	solution: 'Luck/Inhlanhla, love/lutsandvo, Happiness/Injabulo, Money/Imali, etc',
 	summary: 'A mixture for luck, business success and successful gambling', 
-	price:130,
+	price:100,
 	volume:'150g',
 	instructions:'Futsa, Chela, Phalaza, Gquma, Phephetsa',
 	testimonials: 'Testimonials are still being prepared'
@@ -251,7 +250,7 @@ new Product({
     description: 'A very special mixture of powerful herbs [Siwasho]',
 	solution: 'Marriage',
 	summary: 'A mixture for marriage', 
-	price:90,
+	price:100,
 	volume:'150g',
 	instructions:'Futsa',
 	testimonials: 'Testimonials are still being prepared.'
@@ -266,7 +265,7 @@ new Product({
 	description: 'A very delicate and special mixture of herbs & mineral saults',
 	solution:'Luck, Love, Gambling.',
 	summary: 'A mixture for luck, love and gambling', 
-	price :150,
+	price :90,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'
@@ -280,7 +279,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:90,
+	price:60,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -293,7 +292,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Marriage, Respect, More lovers',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:150,
+	price:100,
 	volume:'100g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	 
@@ -319,7 +318,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Love, Attraction, Marriage, Respect',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:150,
+	price:90,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -332,7 +331,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Love, Attraction, dedication',
 	summary: 'A mixture for achieving true love', 
-	price:130,
+	price:120,
 	volume:'100g',
 	instructions:'Futsa, Geza, Phalaza',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -345,7 +344,7 @@ new Product({
     description: 'A very special & delicate oil mixture of natural sautls',
 	solution: 'Luck, Beauty, Marriage, Love',
 	summary: 'A mixture for marriage', 
-	price:70,
+	price:90,
 	volume:'150g',
 	instructions:'Apply on hands, Hair, and body',
 	testimonials: 'Testimonials are still being prepared.'
@@ -360,7 +359,7 @@ new Product({
     description: 'A very special & delicate mixture of natural herbs',
 	solution: 'Marriage, Love',
 	summary: 'A mixture for marriage', 
-	price:150,
+	price:200,
 	volume:'150g',
 	instructions:'Apply on hands, Hair, and body',
 	testimonials: 'Testimonials are still being prepared.'
@@ -374,7 +373,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:120,
+	price:200,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -387,7 +386,7 @@ new Product({
 	description: 'A ver delicyate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:100,
+	price:200,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	
@@ -400,7 +399,7 @@ new Product({
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
 	solution:'Private',
 	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:120,
+	price:200,
 	volume:'150g',
 	instructions:'Futsa, Geza, Gaba',
 	testimonials: 'Testimonials are still being prepared.'	  
