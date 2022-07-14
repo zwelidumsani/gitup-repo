@@ -296,6 +296,16 @@ router.get('/contact', function(req, res){
 });	
 
 
+router.get('/traditional-doctors', function(req, res){
+    res.render('traditional-doctors', {headin: "TRADITIONAL DOCTORS"});
+})
+
+
+router.get('/t-contact', function(req, res){
+	var message = 1;
+    res.render('traditional-doctors', {headin: "TRADITIONAL DOCTORS", message: message});
+})
+
 router.post('/email', function(req, res){
 	
 var transporter = nodemailer.createTransport({

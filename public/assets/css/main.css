@@ -237,6 +237,10 @@ h3.block-title {
 .btn-search {
  padding: 12px 16px;
 }
+
+.btn-gogo {
+	text-align: center;
+}
 .btn-sm {
   font-size: 13px;
   padding: 4px 8px;
