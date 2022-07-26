@@ -196,16 +196,15 @@ router.post('/order',isLoggedIn, function(req, res, next){
 	
 	
 router.get('/remove-order/:id', isLoggedIn, function(req, res, next){
-	var orderId = req.params.id;
-	console.log(orderId);
-	Order.findById(orderId, function(err, order){
+	console.log(req.params.id);
+	Order.findById(req.params.id, function(err, order){
 		if(err){
 			console.log("Could not find Order", err.message);
 		}else {
 			if(order.status == "Closed"){
-				 Order.findOneAndRemove()
+				 order.remove()
 	             .then(data => {
-		         req.flash('order_success_delete', 'An order has been processed and removed');
+		         req.flash('order_success_delete','An order has been processed and removed');
 		         return res.redirect('/dashboard');
 	           })
 	             .catch(err => {
@@ -219,8 +218,7 @@ router.get('/remove-order/:id', isLoggedIn, function(req, res, next){
 				 return res.redirect("/dashboard");
 			}
 		}
-	});
-		
+	});	
 });
 
 

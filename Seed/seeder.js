@@ -31,9 +31,9 @@ new Product({
 	solution: 'Rapid Bone Repair, Gout, Piles, Immune System Booster, Post Operations, Internal Bleeding, Ulcers, Intestine Disorders, Body Cleanser, Boosts Sexual Performance, Bleeding Gums, Body Sores, Helps Digestion Process, & Treats Cancer',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Internal Bleeding, Intestine Disorders, Ulcers, Cancer, Gums',
-	price:70,
+	price:100,
 	volume:'1 Litre',
-	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
+	instructions:'Drink 1/4 cup three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -43,9 +43,9 @@ new Product({
     solution: 'Immune System Booster, Hiccups, Diarrhea, Appetite, Spasmodic Pains, Swollen Feet, Blisters, Glands on neck, Oral Thrush, Body Pain, Headache, Ulcers.',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Immune System, Spasmodic Pains, Oral Thrush, Diarrhea, Appetite, Blisters',
-	price:190,
+	price:180,
 	volume:'1 Litre',
-	instructions:'Drink half a glass there(3) timees per day.',
+	instructions:'Drink 1/4 cup three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -55,9 +55,9 @@ new Product({
 	solution: 'Drop, Body Sores, Piles, Prostrate Cancer, Blood Cleanser, Pneumonia, Chest Pain, Pimples, Iching, Thrush, CD4-Count Booster',
 	description: 'A very special mixture of herbs containing healing properties to cure or treat sicknesses',
 	summary: 'Drop, Prostrate Cancer, Sores Pimples, Rash, Thrush, CD4-Count',
-	price:130,
+	price:160,
 	volume:'1 Litre',
-	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
+	instructions:'Drink 1/4 cup three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 new Product({
@@ -69,7 +69,7 @@ new Product({
 	summary: 'Back Pain, Bladder, Kidney Failure, Sexual Stamina, Stomach, Constipation',
 	price:145,
 	volume:'1 Litre',
-	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
+	instructions:'Drink 1/4 cup, in the morning before breakfast.',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
@@ -83,7 +83,7 @@ new Product({
 	summary: 'Painful Feet, Sweating, Suger Diabetes, High Blood Pressure etc',
 	price:120,
 	volume:'1 Litre',
-	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
+	instructions:'Drink 1/4 cup three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 }),
 
@@ -96,7 +96,7 @@ new Product({
 	summary: 'TB(Tubercolosis), Piles, Cancer, Body Sores, Sking Blisters, Stomach Pains', 
 	price:110,
 	volume:'1 Litre',
-	instructions:'Drink three(3) times per day after meals. Morning, afternoon, and evening.',
+	instructions:'Drink 1/4 cup three(3) times per day after meals. Morning, afternoon, and evening.',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
@@ -119,13 +119,13 @@ new Product({
 new Product({
 	imagePath: 'assets/img/product/wealth/mafutha-wemali.jpg',
 	category:'Wealth',
-	title: 'Mafutha Wemali',
+	title: 'Mafutha Emali',
 	description: 'A very special mixture of essential oils & herbs',
 	solution: 'Luck, Business Success, Gambling Success, Money Attraction',
 	summary: 'A mixture for luck, business success and successful gambling', 
 	price:90,
 	volume:'100g',
-	instructions:'Futsa, Geza, Gaba',
+	instructions:'Mix with body lotion and apply on body [Gcobisa]',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
@@ -149,11 +149,11 @@ new Product({
 	category:'Wealth',
 	title: 'Ingezo Yetimanga',
 	description: 'A special mixture of powerful herbs[Siwasho]',
-	solution: 'successful churches, respect, peace, & love',
-	summary: 'A mixture for luck, successful churches, love and respect', 
-	price:60,
+	solution: 'Family love, respect, peace, & luck',
+	summary: 'A mixture for luck, peaceful families, love and respect', 
+	price:70,
 	volume:'150g',
-	instructions:'Futsa, Geza, Phalaza, Chela',
+	instructions:'Futsa, Geza, Chela',
 	testimonials: 'Testimonials are still being prepared.'
 	
 }),
@@ -220,7 +220,7 @@ new Product({
 	title: 'Nomphumelelo',
 	description: 'A very special mixture of powerful herbs [Siwasho], Usebentisa lesiwasho usikhulumise utfola konkhe lokufunako',
 	solution: 'Clients, Peace, Finacial Boost, Materialistic Growth, Academic Success, Drives Away Bad Spirits, Body Relaxation',
-	summary: 'A mixture for luck, business success and successful gambling', 
+	summary: 'A mixture for luck, materielistic growth and successful life', 
 	price:100,
 	volume:'150g',
 	instructions:'Futsa, Geza, Phalaza, Natsa',
@@ -234,7 +234,7 @@ new Product({
 	title: 'Lozimanga',
 	description: 'A very special mixture of powerful herbs [Siwasho], Lesiwasho Uyasitjela wena kutsi ufuna sikwentele ini',
 	solution: 'Luck/Inhlanhla, love/lutsandvo, Happiness/Injabulo, Money/Imali, etc',
-	summary: 'A mixture for luck, business success and successful gambling', 
+	summary: 'A mixture for luck, and successful life', 
 	price:100,
 	volume:'150g',
 	instructions:'Futsa, Chela, Phalaza, Gquma, Phephetsa',
@@ -263,7 +263,7 @@ new Product({
 	category:'Relations',
 	title: 'Woza Woza',
 	description: 'A very delicate and special mixture of herbs & mineral saults',
-	solution:'Luck, Love, Gambling.',
+	solution:'Luck, more lovers, Gambling',
 	summary: 'A mixture for luck, love and gambling', 
 	price :90,
 	volume:'150g',
@@ -273,15 +273,15 @@ new Product({
 }),
 
 new Product({
-	imagePath: 'assets/img/product/love/ingezo-yetimanga.jpg', 
-	category:'Relations',
+	imagePath: 'assets/img/product/wealth/ingezo-yetimanga.jpg',
+	category:'Wealth',
 	title: 'Ingezo Yetimanga',
-	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
-	solution:'Marriage, Respect, More lovers',
-	summary: 'A mixture for having more lovers, respect and marriage', 
-	price:60,
+	description: 'A special mixture of powerful herbs[Siwasho]',
+	solution: 'Family love, respect, peace, & luck',
+	summary: 'A mixture for luck, peaceful families, love and respect', 
+	price:70,
 	volume:'150g',
-	instructions:'Futsa, Geza, Gaba',
+	instructions:'Futsa, Geza, Chela',
 	testimonials: 'Testimonials are still being prepared.'	
 }),
 
@@ -303,11 +303,11 @@ new Product({
 	category:'Relations',
 	title: 'Siwasho Lesibovu',
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
-	solution:'Badluck, Sicitfo, Evil-spells,',
+	solution:'Badluck, Sicitfo, Evil-spells, Sidzina, Moya lemibi',
 	summary: 'A mixture for having more lovers, respect and marriage', 
 	price:90,
     volume:'100g',
-	instructions:'Futsa, Geza, Phalaza',
+	instructions:'Futsa, Geza',
 	testimonials: 'Testimonials are still being prepared.'	
 }),
 
@@ -316,7 +316,7 @@ new Product({
 	category:'Relations',
 	title: 'Selutsandvo',
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
-	solution:'Love, Attraction, Marriage, Respect',
+	solution:'Lovers, Attraction, Marriage, Respect',
 	summary: 'A mixture for having more lovers, respect and marriage', 
 	price:90,
 	volume:'100g',
@@ -329,7 +329,7 @@ new Product({
 	category:'Relations',
 	title: 'Bheka Mina',
 	description: 'A very delicate and special mixture [Siwasho] of essential powers and herbs',
-	solution:'Love, Attraction, dedication',
+	solution:'Love, Attraction, Dedication',
 	summary: 'A mixture for achieving true love', 
 	price:120,
 	volume:'100g',
