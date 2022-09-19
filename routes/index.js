@@ -293,6 +293,10 @@ router.get('/contact', function(req, res){
     res.render('contactUs', {csrfToken: req.csrfToken(), emailError: emailError, emailSuccess: emailSuccess, headin: "SEND US A MESSAGE"});
 });	
 
+router.get('/about-us', function(req, res){
+    res.render('about-us.handlebars', {csrfToken: req.csrfToken(), headin: "ABOUT US"});
+});
+
 
 router.get('/traditional-doctors', function(req, res){
     res.render('traditional-doctors', {headin: "TRADITIONAL DOCTORS"});
@@ -310,14 +314,14 @@ var transporter = nodemailer.createTransport({
     host: 'mail.icon.co.sz',
     secure: true, // true for 465, false for other ports
     auth: {
-      user: 'eswatiniherbalsolutions@icon.co.sz', // your domain email address
-      pass: 'Yd@tX?u=;Evn' // your password
+      user: 'tech@icon.co.sz', // your domain email address
+      pass: 'iconeswatini@2022' // your password
     }
   });
 	
     const mailOptions = {
          from: req.body.email, // sender address
-         to: 'eswatiniherbalsolutions@icon.co.sz', // list of receivers
+         to: 'tech@icon.co.sz', // list of receivers
          subject: 'Client Mail', // Subject line
          html: '<p>'+req.body.message+'</p>'// plain text body
     };
@@ -437,11 +441,6 @@ router.post('/signin',passport.authenticate('local', {
 	}
 );
 	
-
-router.get('/about', function(req, res){
-	
-		res.render('aboutUs.handlebars');
-});
 
 function isLoggedIn (req, res, next){
    if (req.isAuthenticated()) {

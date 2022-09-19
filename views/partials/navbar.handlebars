@@ -23,13 +23,14 @@
           <div class="collapse navbar-collapse" id="navbar">
 		  
             <ul class="nav navbar-nav navbar-right borderWrap">
+			        <li><a href="/about-us"><i class=""></i> <strong>About Us</strong></a></li>
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/"><i class = "lnr lnr-home"></i> Home</a></span></li>	
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></span></li>
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/treatment"><i class = "lnr lnr-leaf"></i> Herbal Nutrition</a></span></li>
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/relations"><i class = "lnr lnr-heart"></i> Love & Relations</a></span></li>
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/wealth"><i class = "lnr lnr-diamond"></i> Wealth & Success</a></span></li>
 					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:16px;"><a href = "/traditional-doctors"><i class = "lnr lnr-magic-wand"></i> Bogogo</a></span></li>
-					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:10px;"><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contact Us</a></spa></li> 
+					<li style = "font-weight:600;"><span class = "navi" style = "margin-bottom:10px;"><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contact Us</a></span></li> 
 			  {{#if login}}
 			  <li style = "font-weight:600;"><a href="/dashboard"><strong>ID:</strong> {{session.sessionUser.email}}</a></li> 
 			  {{/if}}
@@ -69,6 +70,7 @@
 			  <h3 class="title-menu">All Pages</h3>
 			  <ul class="nav navmenu-nav"> <!--- Menu -->
 				<li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>
+				<li><a href="/about-us"><i class=""></i> About Us</a></li>
 				<li><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></li>
 				<li><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contacts Us</a></li>
 				<li><a href = "/treatment"><i class = "lnr lnr-leaf"></i> Herbal Nutrition</a></li>

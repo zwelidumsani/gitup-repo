@@ -1170,6 +1170,10 @@ select > opation:focus {
 	border: 5px solid green;
 }
 
+.paragraph {
+	margin: 0px;
+}
+
 
 
 .advanced-search{
