@@ -34,7 +34,6 @@
 			  {{#if login}}
 			  <li style = "font-weight:600;"><a href="/dashboard"><strong>ID:</strong> {{session.sessionUser.email}}</a></li> 
 			  {{/if}}
-			  <li style = "font-weight:600;"><a href="/shopping-cart" data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom"><i class="lnr lnr-cart"></i>Your Cart <span class = "badge">{{session.cart.totalQty}}</span></a></li>
 			  
 			  <li class = "dropdown" style = "font-weight:600;">
 			    <a href = "/dashboard" class = "dropdown-toggle" data-toggle = "dropdown">
@@ -44,16 +43,16 @@
 				
 				<ul class = "dropdown-menu">
 				     {{#if login}}
-					<li><a href="/logout"><i class="lnr lnr-enter"></i> Logout</a></li>
-					<li><a type = "submit" href="/dashboard"><i class="lnr lnr-user"></i>User Profile</a></li>
+					<li><a href=""><i class="lnr lnr-enter"></i> Logout</li>
+					<li><a type = "" href=""><i class="lnr lnr-user"></i>User Profile</a></li>
 					 {{else}}
-					 	 <li><a href="/signin"><i class="lnr lnr-enter"></i> Login</a></li>
-					<li><a type = "submit" href="signup"><i class="lnr lnr-pencil"></i> Create Account</a></li>
+					 	 <li><a href=""><i class="lnr lnr-enter"></i> Login</a></li>
+					<li><a type = "submit" href=""><i class="lnr lnr-pencil"></i> Create Account</a></li>
 					 {{/if}}
 				</ul>
 				
 				<li class="postadd">
-                     <a class="btn btn-danger btn-post" href="signup"><span class="fa fa-plus-circle"></span> Register</a>
+                     <a class="btn btn-danger btn-post" href="signup" disabled><span class="fa fa-plus-circle"></span> Register</a>
  			    </li>
 				</div>
             </ul>
@@ -72,12 +71,10 @@
 				<li><a href = "/"><i class = "lnr lnr-home"></i> Home</a></li>
 				<li><a href="/about-us"><i class=""></i> About Us</a></li>
 				<li><a href = "/dashboard"><i class = "lnr lnr-user"></i> Your Profile</a></li>
-				<li><a href = "/contact"> <i class = "lnr lnr-envelope"></i> Contacts Us</a></li>
 				<li><a href = "/treatment"><i class = "lnr lnr-leaf"></i> Herbal Nutrition</a></li>
 				<li><a href = "/relations"><i class = "lnr lnr-heart"></i> Love & Relations</a></li>
 				<li><a href = "/wealth"><i class = "lnr lnr-diamond"></i> Wealth & Success</a></li>
 	            <li><a href = "/traditional-doctors"><i class = " lnr lnr-magic-wand"></i> Bogogo</a></li>
-				<li><a href="/shopping-cart" data-toggle = "tooltip" title = "View Your Item List" data-placement = "bottom"><i class="lnr lnr-cart"></i> Shopping Cart<span class = "badge"> {{session.cart.totalQty}}</span></a></li>
 			   
 			</ul><!--- End Menu -->
 		  </div> <!--- End Off Canvas Side Menu -->
